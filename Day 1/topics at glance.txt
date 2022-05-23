@@ -1,0 +1,15 @@
+OOPS with C#
+Console app and BAL and DAL 
+SQL Server Development (SQL and TSQL)
+ADO.Net (ActiveX database object, to access data from database - CRUD operation)
+ASP.Net MVC (Web Development)
+EF - Entity Framework (Data Access - more advance, easy compared to ADO.Net)
+REST API Services
+Angular with typescript
+Docker and kubernetes
+DevOps (it is used everywhere)
+GIT (Source control Management - source code management) 
+Testing
+	.net
+	angular
+

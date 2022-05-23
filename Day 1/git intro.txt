@@ -1,0 +1,13 @@
+A document will go throught lots of changes during its lifetime
+	(code file / .cs / .html / .css / .ts etc....)
+
+we need to keep a track what changed from what
+a new change will change the version of the file (eg. 1.0 to 1.1 to 1.2 to 1.3)
+who changed it ?
+at what time ?
+some one will approve it reject it 
+
+	GIT (introduced to the world by inventor of Linux system) - later purchased and maintained by MS
+
+	everyday, I will be writing a lot of code, and I will push it to GIT Hub
+	you will be able to pull it from there

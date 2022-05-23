@@ -1,0 +1,11 @@
+1. create a new github repo from the github.com
+2. from your command promt, point to your desired location (desktop in my case)
+	fire - git clone https://github.com/nikhilshah85/23052022---rev---dotnet.git
+	
+
+	3. For the repo owner and contributors only
+	 a.add new files, projecs, folders, scripts, images etc in this repo folder
+	 b. git add .
+	 c. git commit -m "some good and meaningful message"
+	 d. git push
+4. point inside the repo folder - from step 2 -- fire git pull

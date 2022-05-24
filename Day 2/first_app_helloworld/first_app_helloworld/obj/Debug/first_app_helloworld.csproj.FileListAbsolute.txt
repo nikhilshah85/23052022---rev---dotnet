@@ -1,0 +1,8 @@
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 2\first_app_helloworld\first_app_helloworld\bin\Debug\first_app_helloworld.exe.config
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 2\first_app_helloworld\first_app_helloworld\bin\Debug\first_app_helloworld.exe
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 2\first_app_helloworld\first_app_helloworld\bin\Debug\first_app_helloworld.pdb
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 2\first_app_helloworld\first_app_helloworld\obj\Debug\first_app_helloworld.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 2\first_app_helloworld\first_app_helloworld\obj\Debug\first_app_helloworld.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 2\first_app_helloworld\first_app_helloworld\obj\Debug\first_app_helloworld.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 2\first_app_helloworld\first_app_helloworld\obj\Debug\first_app_helloworld.exe
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 2\first_app_helloworld\first_app_helloworld\obj\Debug\first_app_helloworld.pdb

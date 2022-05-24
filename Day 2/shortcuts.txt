@@ -1,0 +1,6 @@
+Control + alt + L - Solution Explorer
+Control + K + C - Comment
+Control + K  + u - uncomment
+Control + Shift + B - Build your program (check for errors, warning, convert text into binary
+						and create an .exe file)
+Control + F5 - run the program

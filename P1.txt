@@ -1,0 +1,32 @@
+Create a console Application - A Banking APP with the below requirements
+1. Should be 2 tier applications - UI + Business application layer and a database
+2. Database should be normalised upto 3 normal forms
+3. you should have an ER diagram as a part of documentation
+4. Must to have all the constraints in database and validations on client side before sending data to database
+5. Must implement logging in a seperate database, useing SeriLog
+6. Must write test cases 
+7. Banking applications should have below requirements
+	a. To perform any activity, user must be logged in (can see the menu, however if your design needs it)
+	b. 2 types of logins, admin and customer
+	c. When logged in by Admin, can see the below menu
+		1. Create new account
+		2. View all account details in a list
+		3. Perform widraw, will be asked Accountnumber of a customer and amount
+		4. Perform Deposit, will be asked Accountnumber of a customer and amount
+		5. Transfer funds, from accountNo 1 to accountNo 2, provided valid balance, 
+		6. Disable an account
+		7. Active an blocked account
+		8. Exit
+	d. When logged in By Customer, can see the below menu
+		1. Check Balance
+		2. Widraw - enter amount
+		3. Deposit - enter amount
+		4. Transfer - valid other account no and amount
+		5. View last 10 transactions
+		6. Change password
+		7. Exit
+		
+	
+
+
+	

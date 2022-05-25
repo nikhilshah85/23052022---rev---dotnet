@@ -1,0 +1,8 @@
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 3\loops_demo\loops_demo\bin\Debug\loops_demo.exe.config
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 3\loops_demo\loops_demo\bin\Debug\loops_demo.exe
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 3\loops_demo\loops_demo\bin\Debug\loops_demo.pdb
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 3\loops_demo\loops_demo\obj\Debug\loops_demo.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 3\loops_demo\loops_demo\obj\Debug\loops_demo.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 3\loops_demo\loops_demo\obj\Debug\loops_demo.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 3\loops_demo\loops_demo\obj\Debug\loops_demo.exe
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 3\loops_demo\loops_demo\obj\Debug\loops_demo.pdb

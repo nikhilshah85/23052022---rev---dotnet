@@ -1,3 +1,5 @@
+					Project 0 
+
 Create a console Application - A Banking APP with the below requirements
 1. Should be 2 tier applications - UI + Business application layer and a database
 2. Database should be normalised upto 3 normal forms
@@ -7,7 +9,7 @@ Create a console Application - A Banking APP with the below requirements
 6. Must write test cases 
 7. Banking applications should have below requirements
 	a. To perform any activity, user must be logged in (can see the menu, however if your design needs it)
-	b. 2 types of logins, admin and customer
+	b. 2 types of logins, admin and customer, if user enters wrong password, for 3 times consicetively, 								block the account
 	c. When logged in by Admin, can see the below menu
 		1. Create new account
 		2. View all account details in a list
@@ -25,7 +27,7 @@ Create a console Application - A Banking APP with the below requirements
 		5. View last 10 transactions
 		6. Change password
 		7. Exit
-		
+8. Project must implement exception handling		
 	
 
 

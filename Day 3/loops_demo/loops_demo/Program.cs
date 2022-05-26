@@ -14,21 +14,24 @@ namespace loops_demo
             //For loop, you use for loop when you are aware how many iterations you wish to perform
             //eg. print Hello for 20 times
 
-            //for(int i = 1; i <= 80; i++)
+            //for (int i = 1; i <= 80; i++)
             //{
             //    Console.WriteLine("Hello " + i);
             //}
+
+
             #endregion
 
             #region Print a Table loop
 
             //Console.WriteLine("Enter a number to wish to see the table for");
-            //int tableToPrint =Convert.ToInt32(Console.ReadLine());
+            //int tableToPrint = Convert.ToInt32(Console.ReadLine());
 
             //for (int i = 1; i < 11; i++)
             //{
             //    Console.WriteLine(tableToPrint + " x " + i + " = " + (tableToPrint * i));
             //}
+
             #endregion
 
             #region First While loop
@@ -77,13 +80,14 @@ namespace loops_demo
             //Console.WriteLine("Total Odd Numbers " + oddNumbers);
             #endregion
 
-            
+            #region Banking UI
+
             bool continueBanking = true;
-              int bankBalanceForTesting = 10000;
+            int bankBalanceForTesting = 10000;
 
             while (continueBanking == true)
             {
-               
+
                 Console.WriteLine("!!_________ CitiBank _________!!");
 
                 Console.WriteLine("1. Open a New Account");
@@ -93,7 +97,7 @@ namespace loops_demo
                 Console.WriteLine("5. View transaction history");
                 Console.WriteLine("6. Check Balance");
                 Console.WriteLine("7. Exit");
-              
+
                 int choice = Convert.ToInt32(Console.ReadLine());
 
                 switch (choice)
@@ -136,7 +140,7 @@ namespace loops_demo
                 Console.Clear();
             }
 
-
+            #endregion
 
 
 

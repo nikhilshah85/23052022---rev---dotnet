@@ -1,0 +1,138 @@
+
+
+
+
+
+
+	Breakpoint - F9
+	Run the code with degud / Start the debug - F5
+	Run the code without the debug - control + F5
+	Jump to next line - F10
+	Jump inside the code - F11
+	exit the debug - F5
+	shift F9 - Remove all the breakpoint
+	
+
+
+
+
+
+
+
+
+					OOPS
+
+			Object Oriented Progamming Structure/System
+
+
+			Object 
+				Properties    - this is how you describe an object
+				Functions/methods
+
+
+			-------
+			Objects are created out of a Class File
+			Class - is a blue print of an object (it is a file, .cs file)			
+				To program the class we have been given 4 pillars
+	
+		Pillars of OOPS 
+			1. Abstraction
+			consider only those properties and methods which are relavant to software
+
+			Accounts
+				accNo, accName, accBalance, accFunding, accAddress, accEmail,
+				
+			
+
+			2. Encapsulation (security)
+			create software, which is easy to use
+			but difficult to understand how it works
+				is achived using properties and methods, and events
+
+			3. Inheritance - Reuse
+
+			4. Polymorphism
+
+	---------------------------------------------------------------------------------------
+		
+
+	int, string, bool, double - Primitive data types
+
+
+	classes are also called as Custom Data Type / UDT User Defined data types
+		1. in an application, create a new class
+		2. add properties to class
+		3. add methods to class
+		4. create objects from the class
+
+
+	----------------------------------------------------------------
+		Accounts
+			accNo, accName, accBalance, accIsActive, accEmail (Camel Case)
+			
+			Widraw(w_amount) 
+			Deposit(d_amount)
+
+		accessspecifier class ClassName
+		{
+			
+
+
+		}
+
+
+		accessspecifiers - Public, Private, internal
+
+
+
+
+
+		1. practice the banking account code
+		2. create a new console app - EmployeeManagement
+			add a new class Employee
+			we need 7 properties in this class (think which are more appropriate)
+			we need 3 methods for employees (think)
+
+			and program it 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

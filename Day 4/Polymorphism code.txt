@@ -1,0 +1,34 @@
+public class Savings
+{
+	public double Widraw(int w_amount)   -- this line is called as a signature of method
+	{
+		
+		if(w_amount < 20000)
+		{
+			process the widraw
+		}
+		else
+		{
+			show an exception message
+		}
+	}
+
+
+}
+
+
+public class Checking
+{
+	public int Widraw(int w_amount)
+	{
+		if(w_amount < 50000)
+		{
+			process the widraw
+		}
+		else
+		{
+			show an exception message
+		}
+	}
+
+}

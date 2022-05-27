@@ -1,8 +1,0 @@
-C:\Users\hp\Desktop\23052022---rev---dotnet\Day 5\bankingSolution\bankingSolution\bin\Debug\bankingSolution.exe.config
-C:\Users\hp\Desktop\23052022---rev---dotnet\Day 5\bankingSolution\bankingSolution\bin\Debug\bankingSolution.exe
-C:\Users\hp\Desktop\23052022---rev---dotnet\Day 5\bankingSolution\bankingSolution\bin\Debug\bankingSolution.pdb
-C:\Users\hp\Desktop\23052022---rev---dotnet\Day 5\bankingSolution\bankingSolution\obj\Debug\bankingSolution.csproj.AssemblyReference.cache
-C:\Users\hp\Desktop\23052022---rev---dotnet\Day 5\bankingSolution\bankingSolution\obj\Debug\bankingSolution.csproj.SuggestedBindingRedirects.cache
-C:\Users\hp\Desktop\23052022---rev---dotnet\Day 5\bankingSolution\bankingSolution\obj\Debug\bankingSolution.csproj.CoreCompileInputs.cache
-C:\Users\hp\Desktop\23052022---rev---dotnet\Day 5\bankingSolution\bankingSolution\obj\Debug\bankingSolution.exe
-C:\Users\hp\Desktop\23052022---rev---dotnet\Day 5\bankingSolution\bankingSolution\obj\Debug\bankingSolution.pdb

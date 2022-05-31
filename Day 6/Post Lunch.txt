@@ -1,0 +1,32 @@
+1. Pull my code, have a look at constructor, base class and child class, make notes
+2. Create a new Library, bankingLIB2
+		add Accounts class with 5 properties, which should have a constructor
+
+			add child classes, Savings, Checking, Loan 
+
+		create the objects accordigly
+
+	Console.WriteLine("Choose the type of Object");
+		Console.WriteLine("1.Savings");
+		Console.WriteLine("2.Checking");
+		Console.WriteLine("3.Loan");
+
+		collect accno,accname, acctype ...etc all the 5 properties of the class
+		and create a new object with that property
+
+3. Go to this link
+	https://www.microsoft.com/en-in/evalcenter/download-sql-server-2016
+	exe download 
+	run the exe u downloaded, a blck screen comes in, with 3 options, Basic, Custom, Download Media
+		click on download media, and download ISO File
+	
+	
+4. Download SSMS (SQL Server Management Studio)
+https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16
+and install it
+
+		
+
+
+
+

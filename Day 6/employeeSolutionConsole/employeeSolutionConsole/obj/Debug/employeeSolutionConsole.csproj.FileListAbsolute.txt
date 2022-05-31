@@ -1,0 +1,11 @@
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 6\employeeSolutionConsole\employeeSolutionConsole\bin\Debug\employeeSolutionConsole.exe.config
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 6\employeeSolutionConsole\employeeSolutionConsole\bin\Debug\employeeSolutionConsole.exe
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 6\employeeSolutionConsole\employeeSolutionConsole\bin\Debug\employeeSolutionConsole.pdb
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 6\employeeSolutionConsole\employeeSolutionConsole\bin\Debug\employeeLIB.dll
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 6\employeeSolutionConsole\employeeSolutionConsole\bin\Debug\employeeLIB.pdb
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 6\employeeSolutionConsole\employeeSolutionConsole\obj\Debug\employeeSolutionConsole.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 6\employeeSolutionConsole\employeeSolutionConsole\obj\Debug\employeeSolutionConsole.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 6\employeeSolutionConsole\employeeSolutionConsole\obj\Debug\employeeSolutionConsole.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 6\employeeSolutionConsole\employeeSolutionConsole\obj\Debug\employeeSolutionConsole.csproj.CopyComplete
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 6\employeeSolutionConsole\employeeSolutionConsole\obj\Debug\employeeSolutionConsole.exe
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 6\employeeSolutionConsole\employeeSolutionConsole\obj\Debug\employeeSolutionConsole.pdb

@@ -19,7 +19,7 @@
 			2. ENUM
 			3. var keyword
 			4. 2-tier architecture - theory and them practical
-			5. constructor
+	5. constructor - an method which gets called on creation of new object at runtime in memory
 			6. FileIO (your first .net framework inbuilt api)
 
 		Overloading - is same method name, with different parameters / different datatypes / different sequence of parameters - only the name is Same

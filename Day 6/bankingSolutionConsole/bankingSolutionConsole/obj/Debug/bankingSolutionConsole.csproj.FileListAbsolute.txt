@@ -1,0 +1,3 @@
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 6\bankingSolutionConsole\bankingSolutionConsole\obj\Debug\bankingSolutionConsole.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 6\bankingSolutionConsole\bankingSolutionConsole\obj\Debug\bankingSolutionConsole.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 6\bankingSolutionConsole\bankingSolutionConsole\obj\Debug\bankingSolutionConsole.csproj.CoreCompileInputs.cache

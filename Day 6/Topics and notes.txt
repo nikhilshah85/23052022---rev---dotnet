@@ -1,0 +1,72 @@
+
+
+
+
+
+
+			1. .Net and different types of applications it allows to create
+			2. C# - data types, variables, conditions, loops
+			3. OOPS - Abstraction, Encapsalation, Inheritance, Polymprphism
+				polymprphism  - virtual in parent
+						overides in child
+			4. Commands - ls, cd, rm, cat, mkdir, grep, pwd, touch, 
+
+--------------------------------------------------------------------------------------------------
+
+			1. Overloading
+				difference between overloading and polymorphism
+				params keyword (params Array)
+			2. ENUM
+			3. var keyword
+			4. 2-tier architecture - theory and them practical
+			5. constructor
+			6. FileIO (your first .net framework inbuilt api)
+
+		Overloading - is same method name, with different parameters / different datatypes / different sequence of parameters - only the name is Same
+
+		does not need inheritance
+
+
+
+		Polymorphism - is same method name, same return type, same parameters, same sequence of 				parameters		
+	
+			happen only when you have inheritance
+
+
+----------------------------------------------------------------
+		Some Authors / Blogs - says Polymprphism are of 2 types
+			a. Static  
+			b. Dynamic
+
+		Polymorpic  - means dynamic at runtime
+
+		---
+		Name mangaling is a Compiler feature, which many authors refers to Static polymorphism
+		
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

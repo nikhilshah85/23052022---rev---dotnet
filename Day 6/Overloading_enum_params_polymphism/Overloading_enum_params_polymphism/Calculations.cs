@@ -19,17 +19,23 @@ namespace Overloading_enum_params_polymphism
 
     internal class Calculations
     {
+       static int myVariable = 20;
+        
+
         public static int Add(int num1, int num2)
         {
+            myVariable = 21;
             return num1 + num2;
         }
 
         public static int Add(int num1, int num2, int num3)
         {
+            myVariable = 22;
             return num1 + num2 + num3;
         }
         public static int Add(int num1, int num2, int num3, int num4)
         {
+            myVariable = 23;
             return num1 + num2 + num3 + num4;
         }
         public static int Add(int num1, int num2, int num3, int num4, int num5)
@@ -47,6 +53,7 @@ namespace Overloading_enum_params_polymphism
             return num1 + " " + num2;
         }
 
+      
         public static string BuyNewVehicleInsurance(VehicleType vehicleType)
         {
             return "Vehicle is now insured";

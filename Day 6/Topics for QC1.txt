@@ -1,0 +1,17 @@
+
+
+
+
+
+
+
+Git hub git repo git commands (i.e. push, pull, commit, add, clone)Conditions if.. else and switch loops for and while 
+OOPS pillars - all 4	
+Abstraction	
+Encapsulation - no direct access to valuesInheritance 	
+Polymorphism N tier architectureProperties (what is a read only property)Methods Data Types
+Access modifiersSwitch case 
+If else - nested - Multi levelbash/power shell commands (i.e. ls = list all files)Everyone would be asked on 4 topics / 6 questions from constructor
+ENUMS
+Params
+

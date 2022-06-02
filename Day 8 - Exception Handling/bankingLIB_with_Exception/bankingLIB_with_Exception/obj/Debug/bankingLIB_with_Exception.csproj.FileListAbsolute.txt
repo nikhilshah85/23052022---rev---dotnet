@@ -1,0 +1,6 @@
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 8 - Exception Handling\bankingLIB_with_Exception\bankingLIB_with_Exception\bin\Debug\bankingLIB_with_Exception.dll
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 8 - Exception Handling\bankingLIB_with_Exception\bankingLIB_with_Exception\bin\Debug\bankingLIB_with_Exception.pdb
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 8 - Exception Handling\bankingLIB_with_Exception\bankingLIB_with_Exception\obj\Debug\bankingLIB_with_Exception.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 8 - Exception Handling\bankingLIB_with_Exception\bankingLIB_with_Exception\obj\Debug\bankingLIB_with_Exception.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 8 - Exception Handling\bankingLIB_with_Exception\bankingLIB_with_Exception\obj\Debug\bankingLIB_with_Exception.dll
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 8 - Exception Handling\bankingLIB_with_Exception\bankingLIB_with_Exception\obj\Debug\bankingLIB_with_Exception.pdb

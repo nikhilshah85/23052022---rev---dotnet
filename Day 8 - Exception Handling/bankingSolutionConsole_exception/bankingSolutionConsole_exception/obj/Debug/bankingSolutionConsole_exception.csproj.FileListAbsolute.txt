@@ -1,0 +1,11 @@
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 8 - Exception Handling\bankingSolutionConsole_exception\bankingSolutionConsole_exception\obj\Debug\bankingSolutionConsole_exception.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 8 - Exception Handling\bankingSolutionConsole_exception\bankingSolutionConsole_exception\obj\Debug\bankingSolutionConsole_exception.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 8 - Exception Handling\bankingSolutionConsole_exception\bankingSolutionConsole_exception\obj\Debug\bankingSolutionConsole_exception.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 8 - Exception Handling\bankingSolutionConsole_exception\bankingSolutionConsole_exception\bin\Debug\bankingSolutionConsole_exception.exe.config
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 8 - Exception Handling\bankingSolutionConsole_exception\bankingSolutionConsole_exception\bin\Debug\bankingSolutionConsole_exception.exe
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 8 - Exception Handling\bankingSolutionConsole_exception\bankingSolutionConsole_exception\bin\Debug\bankingSolutionConsole_exception.pdb
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 8 - Exception Handling\bankingSolutionConsole_exception\bankingSolutionConsole_exception\bin\Debug\bankingLIB_with_Exception.dll
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 8 - Exception Handling\bankingSolutionConsole_exception\bankingSolutionConsole_exception\bin\Debug\bankingLIB_with_Exception.pdb
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 8 - Exception Handling\bankingSolutionConsole_exception\bankingSolutionConsole_exception\obj\Debug\bankingSolutionConsole_exception.csproj.CopyComplete
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 8 - Exception Handling\bankingSolutionConsole_exception\bankingSolutionConsole_exception\obj\Debug\bankingSolutionConsole_exception.exe
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 8 - Exception Handling\bankingSolutionConsole_exception\bankingSolutionConsole_exception\obj\Debug\bankingSolutionConsole_exception.pdb

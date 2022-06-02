@@ -33,6 +33,10 @@ namespace bankingSolutionConsole_exception
                             int v_newAccNo = Convert.ToInt32(Console.ReadLine());
                             Console.WriteLine("Enter New Account Name");
                             string v_newAccName = Console.ReadLine();
+                            if (v_newAccName.Length < 3)
+                            {
+                                throw new Exception("Please provide valid name with min 3 char");
+                            }
                             Console.WriteLine("Enter new Account Balance");
                             double v_newAccBalance = Convert.ToDouble(Console.ReadLine());
                             var accObj = new Savings(v_newAccNo, v_newAccName, v_newAccBalance);

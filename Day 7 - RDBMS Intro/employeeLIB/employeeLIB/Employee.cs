@@ -25,7 +25,7 @@ namespace employeeLIB
         {
             //do all the validations, before you assign the values to your properties, you should not accept the invalid values
 
-            if (empName.Length < 3)
+            if (p_empName.Length < 3)
             {
                 throw new Exception("Name has to be minimum 3 characters");
             }
@@ -51,7 +51,7 @@ namespace employeeLIB
             return num1 / num2;
         }
 
-        public int Applyleaves(int p_leaveDays)
+        public bool Applyleaves(int p_leaveDays)
         {
             if (p_leaveDays == 0 || p_leaveDays < 0)
             {
@@ -62,7 +62,7 @@ namespace employeeLIB
                 throw new Exception("You can avail maximum 15 days of leave at a streach");
             }
             empAvailableLeaves = empAvailableLeaves - p_leaveDays;
-            return empAvailableLeaves;
+            return true;
         }
     }
 }

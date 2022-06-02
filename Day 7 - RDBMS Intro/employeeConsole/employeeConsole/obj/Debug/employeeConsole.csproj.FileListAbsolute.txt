@@ -1,0 +1,11 @@
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 7 - RDBMS Intro\employeeConsole\employeeConsole\bin\Debug\employeeConsole.exe.config
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 7 - RDBMS Intro\employeeConsole\employeeConsole\bin\Debug\employeeConsole.exe
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 7 - RDBMS Intro\employeeConsole\employeeConsole\bin\Debug\employeeConsole.pdb
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 7 - RDBMS Intro\employeeConsole\employeeConsole\obj\Debug\employeeConsole.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 7 - RDBMS Intro\employeeConsole\employeeConsole\obj\Debug\employeeConsole.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 7 - RDBMS Intro\employeeConsole\employeeConsole\obj\Debug\employeeConsole.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 7 - RDBMS Intro\employeeConsole\employeeConsole\obj\Debug\employeeConsole.exe
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 7 - RDBMS Intro\employeeConsole\employeeConsole\obj\Debug\employeeConsole.pdb
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 7 - RDBMS Intro\employeeConsole\employeeConsole\bin\Debug\employeeLIB.dll
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 7 - RDBMS Intro\employeeConsole\employeeConsole\bin\Debug\employeeLIB.pdb
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 7 - RDBMS Intro\employeeConsole\employeeConsole\obj\Debug\employeeConsole.csproj.CopyComplete

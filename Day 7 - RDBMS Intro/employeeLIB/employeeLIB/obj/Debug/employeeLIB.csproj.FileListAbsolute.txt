@@ -4,3 +4,9 @@ C:\Users\hp\Desktop\23052022---rev---dotnet\Day 8\employeeLIB\employeeLIB\obj\De
 C:\Users\hp\Desktop\23052022---rev---dotnet\Day 8\employeeLIB\employeeLIB\obj\Debug\employeeLIB.csproj.CoreCompileInputs.cache
 C:\Users\hp\Desktop\23052022---rev---dotnet\Day 8\employeeLIB\employeeLIB\obj\Debug\employeeLIB.dll
 C:\Users\hp\Desktop\23052022---rev---dotnet\Day 8\employeeLIB\employeeLIB\obj\Debug\employeeLIB.pdb
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 7 - RDBMS Intro\employeeLIB\employeeLIB\bin\Debug\employeeLIB.dll
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 7 - RDBMS Intro\employeeLIB\employeeLIB\bin\Debug\employeeLIB.pdb
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 7 - RDBMS Intro\employeeLIB\employeeLIB\obj\Debug\employeeLIB.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 7 - RDBMS Intro\employeeLIB\employeeLIB\obj\Debug\employeeLIB.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 7 - RDBMS Intro\employeeLIB\employeeLIB\obj\Debug\employeeLIB.dll
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 7 - RDBMS Intro\employeeLIB\employeeLIB\obj\Debug\employeeLIB.pdb

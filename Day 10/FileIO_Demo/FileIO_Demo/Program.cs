@@ -95,6 +95,8 @@ namespace FileIO_Demo
             //}
             #endregion
 
+            #region Read from file, user file
+
             Console.WriteLine("Enter the Name");
             string fileName = Console.ReadLine();
             fileName = fileName + ".txt";
@@ -104,10 +106,20 @@ namespace FileIO_Demo
 
             try
             {
-
-                 fs = new FileStream(fileName, FileMode.Open, FileAccess.Read);
-                rd = new StreamReader(fs);
-                Console.WriteLine(rd.ReadToEnd());
+                if (File.Exists(fileName))
+                {
+                    fs = new FileStream(fileName, FileMode.Open, FileAccess.Read);
+                    rd = new StreamReader(fs);
+                    Console.WriteLine(rd.ReadToEnd());
+                }
+                else
+                {
+                    Console.WriteLine("Person Not found in system");
+                }
+            }
+            catch(IOException ioex)
+            {
+                Console.WriteLine(ioex.Message);
             }
             catch(Exception es)
             {
@@ -115,9 +127,13 @@ namespace FileIO_Demo
             }
             finally
             {
-                fs.Close();
-                rd.Close();
+                if (fs != null)
+                {
+                    fs.Close();
+                    rd.Close();
+                }
             }
+            #endregion
         }
     }
 }

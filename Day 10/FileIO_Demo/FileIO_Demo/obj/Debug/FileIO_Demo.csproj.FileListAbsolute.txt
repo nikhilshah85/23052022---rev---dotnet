@@ -1,0 +1,8 @@
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 10\FileIO_Demo\FileIO_Demo\bin\Debug\FileIO_Demo.exe.config
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 10\FileIO_Demo\FileIO_Demo\bin\Debug\FileIO_Demo.exe
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 10\FileIO_Demo\FileIO_Demo\bin\Debug\FileIO_Demo.pdb
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 10\FileIO_Demo\FileIO_Demo\obj\Debug\FileIO_Demo.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 10\FileIO_Demo\FileIO_Demo\obj\Debug\FileIO_Demo.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 10\FileIO_Demo\FileIO_Demo\obj\Debug\FileIO_Demo.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 10\FileIO_Demo\FileIO_Demo\obj\Debug\FileIO_Demo.exe
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 10\FileIO_Demo\FileIO_Demo\obj\Debug\FileIO_Demo.pdb

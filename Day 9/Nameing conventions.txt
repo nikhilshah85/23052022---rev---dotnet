@@ -1,0 +1,95 @@
+
+
+
+
+
+
+		enum IsEmpPermenant
+		{
+			true,
+			false
+		}
+
+
+		enum EmpDesignation
+		{
+			Developer,
+			Manager,
+			HR
+		}
+
+
+		public class Savings
+		{
+
+
+
+
+		string v_projectDevaloper;
+
+		public int empNo{get;set;}
+		public bool isEmpPermenant {get;set;}
+		public int empAvailableLeaves{get;set;}
+		public string empDesignation {get;set;}
+
+	public Employee(int empNo,IsEmpPermenant isEmpPermenant;int empAvailableLeaves,EmpDesignation p_empDesgignation)
+		{
+			
+			this.empNo = empNo;
+			this.isEmpPermenant = isEmpPermenant;
+			this.empAvailableLeaves = empAvailableLeaves;
+			empDesignation = EmpDesignation.
+			
+		}
+
+		public int Applyleave(int empAvailableLeaves)
+		{
+			this.empAvailableLeaves = this.empAvailableLeaves - empAvailableLeaves;
+			retutn empAvailableLeaves;
+		}
+
+
+		public int ChangeAvailableLeave(int p_newLeaveDays)
+		{
+			empAvailableLeaves = p_newLeaveDays;
+			return empAvailableLeaves;
+		}
+
+
+
+
+
+
+	C# Nameing conventions
+
+		variables
+			v_empAge;
+		parameters (constructors and methods)
+			p_empAge;
+		Properties
+			empAge;
+		methods/functions/constructrs/className
+			Employee, Savings, Checking, Loan
+		Dependency Injection
+			_dbConnection, _dbSet
+
+--------------------------------------------------------------
+	camelCaseing			
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+			
+		

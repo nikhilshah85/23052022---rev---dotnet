@@ -19,3 +19,83 @@ Types of Serialization
 				RBI - Reserve bank of India --- destination
 				SOAP is used in Web Services
 	JSON - is used in RESTAPI / WebAPI services
+---------------------
+		
+		System.Runtime.Serialization.Formatters.Binary
+
+			1. BinaryFormatter bf = new BinaryFormatter();
+			2. FileStream fs = new FileStream(.....);
+
+			[Serializable]
+			3. public class Employee
+			   {
+				////
+				///
+				///
+			   }
+
+			
+			4. Employee emp = new Employee(......);
+
+				--- Serialize ----- bf.Serialize(fs,emp);
+				--- Deserialize ----Employee emp = (Employee)bf.Deserilize(fs);
+			
+--------------------------------------
+
+	1. System.Xml.Serialization
+	2. Make sure you mark your class a [Serializable]
+	3. Create an object of your class (Employee empObj = new Employee());
+	4. FileStream Object
+	5. Create an object of XmlSerializer - needs to pass type of object in constructor
+	6. Use .Serialize(...);
+
+----------------------------------------
+
+	1. System.Runtime.Serialization.Formatter.SOAP (you need to add a reference from sol explorer)
+	2. Make sure you mark your class a [Serializable]
+	3. Create an object of your class (Employee empObj = new Employee());
+	4. FileStream Object
+	5. Create an object of SoapFormatter
+	6. Use .Serialize(...);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

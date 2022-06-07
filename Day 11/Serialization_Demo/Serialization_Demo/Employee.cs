@@ -8,7 +8,7 @@ namespace Serialization_Demo
 {
     [Serializable] //this is called as an Attribute, which is an instruction to compiler and runtime
                   
-    internal class Employee
+    public class Employee
     {
         public int empNo { get; set; }
         public string empName { get; set; }

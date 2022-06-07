@@ -1,0 +1,15 @@
+ATM card - what are the properties ?
+
+
+	ATM card - Object is created on RAM in 
+		machine
+
+
+		this object is then sent to 
+	Server located somewhere (may be far)
+
+		Server will open the object
+		read the data, process the data, 
+		create an output, and output is also an object
+		and will be sent back to ATM machine
+		

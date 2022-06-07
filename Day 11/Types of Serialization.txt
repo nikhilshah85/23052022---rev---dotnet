@@ -1,0 +1,21 @@
+Types of Serialization
+	BinarySerialization - where all the data is stored in Binary format
+		lightest and fastest among all the types of serialization
+		when object is serialised on windows, can be deserialized
+							on windows
+
+	XMLSerialization - object is stored in XML language
+		a bit heavy then Binary, but supports cross platform, i.e from 	windows to linux or mac		
+		to be used when you know both the operating systems (source and destination)
+		to be used when data is not scencetive
+
+	SOAPSerialization - Object is stored in SOAP message (soap XML) 
+		SOAP - Simple Object Access Protocol
+		bit heavy, carries a lot of metadata than data
+		to be used when source and destination is not fixed
+		ATM - Standard Charted 
+				u came to India, and used an ATM for
+				SBI bank --- source	
+				RBI - Reserve bank of India --- destination
+				SOAP is used in Web Services
+	JSON - is used in RESTAPI / WebAPI services

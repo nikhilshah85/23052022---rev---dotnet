@@ -1,0 +1,22 @@
+
+
+
+
+
+
+			FileIO
+				Filestream
+				StreamWriter
+				StreamReader
+				File.exists('''); //return true or false
+				IOException
+------------------------------
+			File IO is good for loose data, data has no relation, primitive data, int, double, 					string etc
+			Not suitable for Custom data type, ie.  Objects
+
+
+	-------Serialization 
+		Persisting the state of an object to a storage or a network is called serialization
+		(saveing)
+
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/serialization/

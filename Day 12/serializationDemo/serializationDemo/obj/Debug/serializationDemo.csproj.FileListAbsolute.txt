@@ -1,0 +1,8 @@
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 12\serializationDemo\serializationDemo\bin\Debug\serializationDemo.exe.config
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 12\serializationDemo\serializationDemo\bin\Debug\serializationDemo.exe
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 12\serializationDemo\serializationDemo\bin\Debug\serializationDemo.pdb
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 12\serializationDemo\serializationDemo\obj\Debug\serializationDemo.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 12\serializationDemo\serializationDemo\obj\Debug\serializationDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 12\serializationDemo\serializationDemo\obj\Debug\serializationDemo.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 12\serializationDemo\serializationDemo\obj\Debug\serializationDemo.exe
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 12\serializationDemo\serializationDemo\obj\Debug\serializationDemo.pdb

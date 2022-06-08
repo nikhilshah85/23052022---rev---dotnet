@@ -1,0 +1,18 @@
+1. User enters the card
+2. A new object is created, card is been read and values are assigned to properties of an obj (not all 												properties)
+3. A log entry is been, object gets serialized to hardware in ATM Machine (Searialize)
+4  Object is then validated, like exp date, validity, activeness etcc...
+5. if everything is correct, user is asked to enter the pin No
+6. Pin no gets assigned to a property of an object
+7. Object gets encrypted
+8. Object goes to server, server will decrypt it, deserialize it, validate the card, 
+	it will send an object (AccoutDetails Obj) - serialised with lots of info. eg balance
+	(pin is correct, avaialble balance, last 5 transactions etc...) - in a serialised, encrypted object
+9. ATM will recieve that object, decrypt it, deserialize it, read it, if valid user, show the menu
+	user will see the Menu, eg. Widraw, Deposit, view last 5 transaction, change pin etc.....
+10. user will choose an option, lets say widraw, enters the amount to widraw, lets say 1000, and confirms  widrawal, ATM will validate it, if everything is valid, it will give you the money, update the object
+	and ask you if you want to have more transactions, 
+	else you will exit
+11. ATM will serialize this object back, encrypt it, store it locally and sends a copy to server
+12. server will recieve it,decrypt it and deserialize , and update the account details in database, 
+	

@@ -1,0 +1,151 @@
+1. OOPS
+2. FileIO (Primitive data)
+3. Serialization (Custom data type, Objects)
+4. Collections
+	store multiple values in a same variable
+	eg. if i want to store names of 20 associates in my program
+		string associate1 = "Kevin";
+		string associate2 = "Kyle";
+		string associate3 = "Katherine";
+		associate3 = "Kuavo";
+
+	this is time consuming and difficult to mange
+
+		Profile joseph = new Profile(........);
+		Profile olivia = new Profile(........);
+		Profile roba = new Profile(.........);
+-------------------------------------------------------------------
+		instead collections will help us to store all the values in 1 variable
+
+		Points about collections:
+			a. They are index based - [5] - this will store 5 values for you
+							0, 1, 2, 3, 4
+			b. There are 2 types
+				Non-generic - old one, 
+					very flexible to use, not good for performance
+				Generic collection - New one, (since .net 2.0 onwards)
+					straight forward to use
+			c. System.Collection;
+			   System.Collection.Generics; -- this is more prefered
+		Below are some of the collections we will be using
+			a. Array
+			b. ArrayList (Non-generic)
+			c. List (Generic)
+			d. HashTable (Non-generic)  - this is a key and value pair
+			e. Dictionary (Generic) - this is also a key and value pair
+
+
+
+---------------------------------------------------------------------------------------------------------------
+		
+
+	Array - 
+		I can store only specfic datatypes in array upon declaration
+			int[] myNumbers = new int[3];
+				only and only int
+		It is fixed in size once declared and decided
+			int[] myNumbers = new int[3]; 
+				u cannot store 4th value here
+		If I declare array of 10, and I if I am storeing only 8 values in it
+
+			int[] myNumbers = new int[10];
+				this will be sizeOf(int) * 10 = 40 bytes
+			and if I store only 6 values here - thus I am storeing only 24bytes, but, my program 			will block 40 bytes, which will waste 16bytes
+	ArrayList - 
+		kind of extention to array, solves above 3 problems
+
+		However, it will introduce you 1 serious problem - Performance
+		with arraylist, every value you enter in Add, goes as an object, and every value you remove
+									the ArrayList comes out as an object
+
+
+ 		 myNumbers.Add(new Products() { pId = 101, pName = "Pepsi", pCategory = "Cold-Drink", 						pIsInStock = true, pPrice = 3 });
+            myNumbers.Add(10);
+            myNumbers.Add(20.30);
+            myNumbers.Add(true);
+
+
+     	at runtime, system has to detect what is the datatype, and accordingly allocate the space on Ram
+				which if you have 100 values, is going to take a lot of time
+			while outputing the value, it has to convert it into object and give it to you
+
+		Boxing and Unboxing
+
+		Conversion of valuetype to reference type - is called as boxing
+		conversion of ref type to value type - is called as unboxing
+		This has to do with Memory graph, stack, heap, code area, static area etc....
+
+
+	List is a generic collection
+		we do have a fixed number of values we are going to store
+		but I know the type of data
+		List<type>  (this is similar to templates in C++)
+			
+
+		list is the most used collection, as it is also a standard, if you create a list in .net
+		you can pass it to Java as well, (use XML serializtion)
+
+
+		---only 1 problem, it allows repeatation of values
+	Many times we need to have an identity for every value we add
+
+		Thus a collection based on Key and value pair (key will always be unique, value will be 								attached to key)
+
+			SortedList(key,value) - non-generic, affects the performance
+			SortedList<key,value>	genric
+			HashTable(key,value) - non-generic, affects the performance
+			Dictionary<key,value> - generic
+
+
+	Sorted List (non-generic) will sort your values, key as well as value, making sure key is always unique
+		but everything you add, will be an object, and every time you  bring the value out, it will be 		an object, Not good for performance
+
+	Sorted List (generic) will sort your values, key as well as value, making sure key is always uniqe
+			You get performance beinfit, bit you sepend on sorting efforts if it is not required
+
+
+	Hashtable(key,value) - (non-generic) - Not sorted - but object as key and value
+	Dictionary<Key,value> - (generic) - Not sorted - but good for performance
+
+
+------------------------
+		create a guest list 
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

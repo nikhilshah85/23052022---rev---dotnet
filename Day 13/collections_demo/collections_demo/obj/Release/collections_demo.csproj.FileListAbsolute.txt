@@ -1,0 +1,8 @@
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 13\collections_demo\collections_demo\bin\Release\collections_demo.exe.config
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 13\collections_demo\collections_demo\bin\Release\collections_demo.exe
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 13\collections_demo\collections_demo\bin\Release\collections_demo.pdb
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 13\collections_demo\collections_demo\obj\Release\collections_demo.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 13\collections_demo\collections_demo\obj\Release\collections_demo.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 13\collections_demo\collections_demo\obj\Release\collections_demo.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 13\collections_demo\collections_demo\obj\Release\collections_demo.exe
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 13\collections_demo\collections_demo\obj\Release\collections_demo.pdb

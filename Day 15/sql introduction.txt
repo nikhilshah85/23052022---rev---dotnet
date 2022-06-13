@@ -1,0 +1,52 @@
+
+
+
+
+
+		SQL Server :
+			a. On Premises Instance (installation done on a local machine or network machine)
+			b. On Cloud (Azure, Aws, GCP, etc......)
+
+
+		For training and project 0 - you will be using a.
+		For project 2 - you will be on b. ( this is because you will need to work in a team)
+
+	-------------------------------------------------------------------------------------------------
+		You can use SSMS - SQL Server Management studio 
+				 or visual studio to connect to sql instance/service
+	-------------------------------------------------------------------------------------------------
+		SQL Server editions 
+
+			SQL Server express - free of cost (can store limited data - 10GB)
+			SQL Server Standard
+			SQL Server Developer - can be used only for development, not for real production
+			SQL Server Enterprise edition - has all the high end features
+
+
+
+		You can connect to server in 2 ways
+		a. Windows Authentication - use windows username and password
+		b. Server Authentication - provide username and password to connect (used in real production)
+
+
+		c. Mixed (use any)
+
+		it will create a new user called (sa) - Sql server admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

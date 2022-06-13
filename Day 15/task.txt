@@ -1,0 +1,17 @@
+1. Try all the queries that we did
+2. create a new Database, shoppingDB
+
+3. below is the task for you today
+	create a new table Products, 
+		which should columns as below
+			pId 
+			pName
+			pCategory
+			pAvailableQty
+			pIsInStock
+			pPrice
+	(choose approriate datatypes) - pId a primary key
+
+4. add a new column to the table, ManufacturedBy 
+5. insert 20 records in the table
+		

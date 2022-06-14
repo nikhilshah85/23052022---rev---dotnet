@@ -1,0 +1,61 @@
+
+
+
+
+
+
+
+		DDL - Create
+		DML - insert, udpate
+		DQL
+
+------------------------------------------------------------------------------------------------------------
+		create database bankingDB;
+		use bankingDB;
+
+		create table accountsInfo
+		(
+			accNo int primary key,
+			accName varchar(20),
+			accType varchar(20),
+			accBalance float,
+			accIsActive bit
+		)
+		insert into accountsInfo values(1,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(2,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(3,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(4,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(5,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(6,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(7,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(8,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(9,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(10,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(11,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(12,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(13,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(14,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(15,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(16,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(17,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(18,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(19,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(20,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(21,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(22,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(23,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(24,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(25,'Nikhil','Savings',9000,1)
+		insert into accountsInfo values(26,'Nikhil','Savings',9000,1)
+
+
+
+
+
+
+
+
+
+
+
+

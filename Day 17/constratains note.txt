@@ -1,0 +1,76 @@
+
+
+
+
+1. DDL statemente
+
+
+	create table BranchInfo
+	(
+		brNo int primary key,
+		brName varchar(20),
+		brCity varchar(20),
+		brEmail varchar(30), -- they need to be unique, no duplication
+		brContact varchar(20)
+	)
+
+
+	create table AccountsInfo
+	(
+		accNo int,
+		accName varchar(20),
+		accType varchar(20),
+		accBalance float,
+		accBranch int
+	)
+	Constraints
+	Primary key and Foreign Key
+	accName should have min 3 characters (check)
+	accType can only be (Savings, checking or Loan) (check)
+	brEmail and brContact -- they need to be unique
+	you cannot keep some values blank or null (not null)
+
+
+
+5 In build constratints in SQL Server
+	Primary Key - this will ensure unique value for the column
+		      this is used to identify the record
+		      this will not allow duplicate values
+		      you can have only 1 primary key per table (1 primary can be based on multiple col called 								as concantenated key)
+	Not null
+		   - this will make sure, column will not allow null value, blank value
+		   - just use this keyword next to column name
+	check 
+	unique key
+		   - this will ensure unique value for the column
+		   - this is not used to identify a record
+		   - you can create multiple unique keys in a table
+		   - you can also have combination of 2 columns as unique
+	foreign key
+
+		we can disable/enable the constraint
+		we can delete teh constraint
+		we can modify the constraint
+
+		to do so, we need to know the name of the constraint, 
+
+
+
+6 - build your own constraint  using - Trigger
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

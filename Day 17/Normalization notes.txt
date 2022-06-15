@@ -1,0 +1,87 @@
+Information
+Data
+Database
+Records (row)
+Field (column)
+Table/File (combination of records and fileds)
+Functional dependency
+
+
+Engine No 501 -- capacity 20 ltrs
+
+
+		capacity 20ltrs
+		capacity 40ltrs
+		capacity 90ltrs
+
+
+OrderNo AccNo Custoemr Adderss   Date      Item        Qty     ItemPrice  TotalCost
+1       101	A	Mum      10/10	   Pepsi        1 	2	        2
+2       205	B	NYK	 12/10	   Coke		2	4		8
+3	609	C	Cal	 14/10	   IPhone	6	700		4200
+4	805	A	Txs	 05/05	   Dell		9	250		2250
+					   Coke		5	2		6000
+					   Sandwitch   10	3		8000
+					   Iphone       1	700		12000
+5	306	B	Dallas	 08/09	   Coke		12	4		48
+6	101	D	NYK	 07/08     Sandwitch	18	3		52
+7	205	F	Cal	 06/08     Coke		60	4		240
+
+
+
+
+
+
+FirstName  LastName   FullName
+Nikhil	    Shah	Nikhil Shah
+Kevin       Dean        Kevin Dean
+
+
+
+
+
+
+1st Normal Form
+	Remove repeatation
+	Choose a primary key 
+
+		sometime, it is not possible to choose a primary key,
+			thus we choose 2 or more attributes combined as primary key
+				(Composite key)
+
+	1st NF complete
+
+2nd NF
+	if you do not have a composite key, your 2nd normal form is also complete
+	if you have composite key remove functional dependency
+		a. seperate the columns into different tables
+		b. relate the tables as using primary key and foreign key
+
+3rd NF
+	a. remove transactive dependency, seperate the columns into tables
+	b. relate the tables as using primary key and foreign key
+
+
+		Work Done !!
+-----------------------------------------------------------------------------------
+		There are 6 normal forms in databases, we first 3 for RDBMS
+		and next 3 for Analysis services
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		

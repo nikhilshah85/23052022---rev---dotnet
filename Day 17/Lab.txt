@@ -1,0 +1,33 @@
+1. Practice the constraint code
+2. Task
+
+	create below tables in employeeDB
+			deptInfo
+				deptNo
+				deptName
+				deptLocation
+				deptHead
+				deptEmail
+
+		deptno to primary key
+		deptName should be unique and not null
+		deptlocation not null 
+		deptHead name cannot be null, min 5 characters
+		deptEmail unique
+
+	insert 5 department records
+------------------------------------
+	create table employeeInfo
+		empNo 
+		empName
+		empDesigantion
+		empSalary
+		empSSN
+		empDept
+	empNo primary key 
+	empName min 3 characters and max 20 characters
+	empDesignation cannot be null, can only be, Manager, Developer, HR
+	empSalary only between 5000 and 25000
+	empSSN not null and unique 
+	empDept foreign key to dept table
+		

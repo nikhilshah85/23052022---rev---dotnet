@@ -1,0 +1,8 @@
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 18\adonet_connectarch\adonet_connectarch\bin\Debug\adonet_connectarch.exe.config
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 18\adonet_connectarch\adonet_connectarch\bin\Debug\adonet_connectarch.exe
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 18\adonet_connectarch\adonet_connectarch\bin\Debug\adonet_connectarch.pdb
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 18\adonet_connectarch\adonet_connectarch\obj\Debug\adonet_connectarch.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 18\adonet_connectarch\adonet_connectarch\obj\Debug\adonet_connectarch.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 18\adonet_connectarch\adonet_connectarch\obj\Debug\adonet_connectarch.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 18\adonet_connectarch\adonet_connectarch\obj\Debug\adonet_connectarch.exe
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 18\adonet_connectarch\adonet_connectarch\obj\Debug\adonet_connectarch.pdb

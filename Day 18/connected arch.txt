@@ -1,0 +1,8 @@
+SqlConnection conObj = new SqlConnection("Server= ; database= ; user id= ; password=)
+SqlCommand cmdObj = new SQlCommand("select *from empinfo",conObj);
+
+sqlCommand has 3 methods
+
+	cmdObj.executeReader(); -- for select statement
+	cmdObj.executeScalar(); -- for aggregate functions (sum, min, max,count etc)
+	cmdObj.executeNonQuery() -- for DML operation (insert, update,delte)

@@ -1,0 +1,13 @@
+Inner Join - Equi Join
+	this will give all the common records from both the tables
+	(common records referd to Columns mentioned in = sign)
+
+Left Join - will give you all the records from left table, and common records from right 				table		
+		(common records referd to Columns mentioned in = sign)
+
+
+Right Join - will give you all the records from right table, and common records from left 				table		
+		(common records referd to Columns mentioned in = sign)
+
+
+Full Join - equal as well as non equal records

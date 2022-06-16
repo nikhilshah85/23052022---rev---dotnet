@@ -1,0 +1,8 @@
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 18\ado_net_part2\ado_net_part2\bin\Debug\ado_net_part2.exe.config
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 18\ado_net_part2\ado_net_part2\bin\Debug\ado_net_part2.exe
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 18\ado_net_part2\ado_net_part2\bin\Debug\ado_net_part2.pdb
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 18\ado_net_part2\ado_net_part2\obj\Debug\ado_net_part2.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 18\ado_net_part2\ado_net_part2\obj\Debug\ado_net_part2.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 18\ado_net_part2\ado_net_part2\obj\Debug\ado_net_part2.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 18\ado_net_part2\ado_net_part2\obj\Debug\ado_net_part2.exe
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 18\ado_net_part2\ado_net_part2\obj\Debug\ado_net_part2.pdb

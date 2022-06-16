@@ -69,4 +69,114 @@ create table empInfo
 	update empInfo set empSalary = empSalary *  1.3 where empSalary > 600
 	select *from empInfo
 
+
+
+
+
+
+
+
+
+
 	update empInfo set empIsActive = 0 where empSalary < 400 and empDesigantion like 'Developer'
+
+
+	---------- Inner Join - Equi Join - gives you only equal records from both the tables
+									--equality value is primary key and FK 
+
+					select * from empInfo join deptInfo
+									on 
+								  empInfo.empDept = deptInfo.deptNo
+
+					select * from empInfo e join deptInfo d
+									on 
+								  e.empDept = d.deptNo 
+								  where d.deptLocation = 'Reston'
+								  order by e.empDept,e.empSalary
+
+				select e.empNo,e.empName,e.empSalary, d.deptNo,d.deptLocation
+						from empInfo e
+						inner join deptInfo d
+						on
+						e.empDept = d.deptNo
+						order by d.deptLocation
+
+				select e.empNo,e.empName,e.empSalary, d.deptNo,d.deptLocation
+						from empInfo e
+						left join deptInfo d
+						on
+						e.empDept = d.deptNo
+						order by d.deptLocation
+
+				select e.empNo,e.empName,e.empSalary, d.deptNo,d.deptLocation
+						from empInfo e
+						right join deptInfo d
+						on
+						e.empDept = d.deptNo
+						order by d.deptLocation
+
+
+
+				
+				select e.empNo,e.empName,e.empSalary, d.deptNo,d.deptLocation
+						from empInfo e
+						full join deptInfo d
+						on
+						e.empDept = d.deptNo
+						order by d.deptLocation
+
+				select e.empNo,e.empName,e.empSalary,e.empDept, d.deptNo,d.deptLocation
+						from empInfo e
+						full join deptInfo d
+						on
+						e.empDept = d.deptNo
+						where e.empDept is null
+						order by d.deptLocation
+
+
+
+
+
+
+
+
+
+
+
+			--How many emp works in every location ?
+			--what is the total salary paid to each department ?
+
+			select count(e.empNo) [Total Employee],d.deptLocation 
+								from empInfo e
+								join deptInfo d
+								on e.empDept = d.deptNo
+								group by d.deptLocation
+
+			select count(e.empNo) [Total Employee] 
+								from empInfo e
+								join deptInfo d
+								on e.empDept = d.deptNo where d.deptLocation = 'New Yark'
+
+
+
+				--frame a statement from both tables, empName is empDesignation and work from empLocation
+
+				select CONCAT(e.empName,' is a ',e.empDesigantion, ' and works from ',d.deptLocation)
+				from empInfo e
+				join deptInfo d
+				on e.empDept = d.deptNo
+
+									
+		
+
+
+
+
+
+
+
+
+
+			
+
+

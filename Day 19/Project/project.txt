@@ -1,0 +1,25 @@
+
+
+
+
+
+
+
+		
+					employeeManagementAPP - ConsoleAPP
+					employeeManagementLIN - Class Library
+					employeeManagementDB - Database
+
+		----------------------------------------------------------------------------------------------
+				a. App should allow below functions
+					
+				Menu will appear when logged in (we will get the login from database)
+					a. View List of All Employees
+					b. Search Employee (By Id) - will fire a join to get data from 2 tables
+					c. Add Employee
+					d. Edit Employee
+					e. Delete Employee
+					f. Logout
+					
+
+			

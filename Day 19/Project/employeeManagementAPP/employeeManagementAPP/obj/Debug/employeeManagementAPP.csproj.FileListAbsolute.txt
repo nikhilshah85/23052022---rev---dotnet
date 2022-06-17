@@ -1,0 +1,11 @@
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 19\Project\employeeManagementAPP\employeeManagementAPP\bin\Debug\employeeManagementAPP.exe.config
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 19\Project\employeeManagementAPP\employeeManagementAPP\bin\Debug\employeeManagementAPP.exe
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 19\Project\employeeManagementAPP\employeeManagementAPP\bin\Debug\employeeManagementAPP.pdb
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 19\Project\employeeManagementAPP\employeeManagementAPP\obj\Debug\employeeManagementAPP.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 19\Project\employeeManagementAPP\employeeManagementAPP\obj\Debug\employeeManagementAPP.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 19\Project\employeeManagementAPP\employeeManagementAPP\obj\Debug\employeeManagementAPP.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 19\Project\employeeManagementAPP\employeeManagementAPP\obj\Debug\employeeManagementAPP.exe
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 19\Project\employeeManagementAPP\employeeManagementAPP\obj\Debug\employeeManagementAPP.pdb
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 19\Project\employeeManagementAPP\employeeManagementAPP\bin\Debug\employeeManagementLIB.dll
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 19\Project\employeeManagementAPP\employeeManagementAPP\bin\Debug\employeeManagementLIB.pdb
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 19\Project\employeeManagementAPP\employeeManagementAPP\obj\Debug\employeeManagementAPP.csproj.CopyComplete

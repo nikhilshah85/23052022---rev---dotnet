@@ -1,0 +1,6 @@
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 19\Project\employeeManagementLIB\employeeManagementLIB\bin\Debug\employeeManagementLIB.dll
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 19\Project\employeeManagementLIB\employeeManagementLIB\bin\Debug\employeeManagementLIB.pdb
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 19\Project\employeeManagementLIB\employeeManagementLIB\obj\Debug\employeeManagementLIB.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 19\Project\employeeManagementLIB\employeeManagementLIB\obj\Debug\employeeManagementLIB.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 19\Project\employeeManagementLIB\employeeManagementLIB\obj\Debug\employeeManagementLIB.dll
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 19\Project\employeeManagementLIB\employeeManagementLIB\obj\Debug\employeeManagementLIB.pdb

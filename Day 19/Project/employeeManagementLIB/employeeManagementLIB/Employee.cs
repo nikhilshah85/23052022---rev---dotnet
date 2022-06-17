@@ -18,6 +18,55 @@ namespace employeeManagementLIB
         SqlConnection con = new SqlConnection("server=WIN8\\NIKHILINSTANCE;database=employeeManagementDB;user id=sa;password=Password1234");
 
 
+        public List<Employee> GetAllEmployees()
+        {
+            SqlCommand cmdAllEmployees = new SqlCommand("select * from empInfo order by empDesignation", con);
+            con.Open();
+            SqlDataReader readEmp = cmdAllEmployees.ExecuteReader(); //this is point to output of query (not table)
+                                                                     //then u will ask it to point to next record
+            List<Employee> empList = new List<Employee>();
+            while (readEmp.Read())
+            {
+                empList.Add(new Employee()
+                {
+                    empNo = (int)readEmp[0],
+                    empName = readEmp[1].ToString(),
+                    empDesigantion = readEmp[2].ToString(),
+                    empSalary =(int) readEmp[3],
+                    empDept =(int) readEmp[4]
+                });
+            }
+            readEmp.Close();
+            con.Close();
+            return empList;
+        }
+
+        public Employee SearchById(int p_empNo)
+        {
+            SqlCommand cmdSearchById = new SqlCommand("select * from empInfo where empNo=@eNo", con);
+            cmdSearchById.Parameters.AddWithValue("@eNo", p_empNo);
+            Employee empDetail = new Employee();
+            con.Open();
+             SqlDataReader readEmp = cmdSearchById.ExecuteReader();
+            if (readEmp.Read())
+            {
+                empDetail.empNo = (int)readEmp[0];
+                empDetail.empName = readEmp[1].ToString();
+                empDetail.empDesigantion = readEmp[2].ToString();
+                empDetail.empSalary = (int)readEmp[3];
+                empDetail.empDept = (int)readEmp[4];
+            }
+            else
+            {
+                readEmp.Close();
+                con.Close();
+                throw new Exception("Employee Not Found");
+            }
+            readEmp.Close();
+            con.Close();
+            return empDetail;
+        }
+
         public bool checkEmployeeExist(int p_empNo)
         {
             SqlCommand cmdCheck = new SqlCommand("select count(*) from empInfo where empNo = @eNo", con);

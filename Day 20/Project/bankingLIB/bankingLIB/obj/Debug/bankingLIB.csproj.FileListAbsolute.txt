@@ -1,0 +1,6 @@
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 20\Project\bankingLIB\bankingLIB\obj\Debug\bankingLIB.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 20\Project\bankingLIB\bankingLIB\obj\Debug\bankingLIB.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 20\Project\bankingLIB\bankingLIB\bin\Debug\bankingLIB.dll
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 20\Project\bankingLIB\bankingLIB\bin\Debug\bankingLIB.pdb
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 20\Project\bankingLIB\bankingLIB\obj\Debug\bankingLIB.dll
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 20\Project\bankingLIB\bankingLIB\obj\Debug\bankingLIB.pdb

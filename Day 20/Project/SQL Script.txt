@@ -1,0 +1,23 @@
+
+
+
+
+
+create table userLogin
+(
+	userName varchar(20),
+	password varchar(20),
+	status varchar(20) default 'Active',
+	attemps int default(0)
+)
+
+insert into userLogin(userName,password) values('Nikhil','Password1234')
+insert into userLogin(userName,password) values('Mark','Password12345')
+
+------------------------------
+create table AdminLogin
+(
+	userName varchar(20),
+	password varchar(20)
+)
+insert into AdminLogin values('AdminA','PassAdmin1234')

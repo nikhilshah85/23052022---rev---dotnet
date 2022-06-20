@@ -1,0 +1,11 @@
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 20\Project\bankingAPP\bankingAPP\bin\Debug\bankingAPP.exe.config
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 20\Project\bankingAPP\bankingAPP\bin\Debug\bankingAPP.exe
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 20\Project\bankingAPP\bankingAPP\bin\Debug\bankingAPP.pdb
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 20\Project\bankingAPP\bankingAPP\bin\Debug\bankingLIB.dll
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 20\Project\bankingAPP\bankingAPP\bin\Debug\bankingLIB.pdb
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 20\Project\bankingAPP\bankingAPP\obj\Debug\bankingAPP.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 20\Project\bankingAPP\bankingAPP\obj\Debug\bankingAPP.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 20\Project\bankingAPP\bankingAPP\obj\Debug\bankingAPP.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 20\Project\bankingAPP\bankingAPP\obj\Debug\bankingAPP.csproj.CopyComplete
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 20\Project\bankingAPP\bankingAPP\obj\Debug\bankingAPP.exe
+C:\Users\hp\Desktop\23052022---rev---dotnet\Day 20\Project\bankingAPP\bankingAPP\obj\Debug\bankingAPP.pdb

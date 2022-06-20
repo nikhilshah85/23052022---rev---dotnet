@@ -1,0 +1,39 @@
+create table AccountsInfo
+(
+	accNo int primary key,
+	accName varchar(20),
+	accType varchar(20),
+	accBalance int
+)
+insert into AccountsInfo values(101,'Nikhil','Savings',12000)
+insert into AccountsInfo values(102,'Mike','Savings',12000)
+insert into AccountsInfo values(103,'Rickey','Savings',12000)
+insert into AccountsInfo values(104,'John','Savings',12000)
+
+
+create table TransactionsInfo
+(
+	trNo int primary key identity,
+	calender datetime,
+	fromAccount int,
+	toAccount int,
+	Amount int,
+	transferedBy varchar(20),
+	constraint fk_fromacc foreign key(fromAccount) references AccountsInfo,
+	constraint fk_Toacc foreign key(toAccount) references AccountsInfo
+)
+
+select * from AccountsInfo
+
+update AccountsInfo set accBalance = accBalance - 2000 where accNo = 102
+update AccountsInfo set accBalance = accBalance + 2000 where accNo = 104
+insert into TransactionsInfo values(GETDATE(),102,104,2000,'Admin')
+
+select * from AccountsInfo
+select * from TransactionsInfo
+
+
+
+
+
+select top 10 * from TransactionsInfo where fromAccount = 102

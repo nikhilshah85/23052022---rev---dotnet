@@ -12,6 +12,7 @@ namespace bankingAPP
         {
             #region Variables and Objects
             Security secObj = new Security();
+            Transactions trObj = new Transactions();
             #endregion
 
 
@@ -35,6 +36,17 @@ namespace bankingAPP
                 if (isValidUser.Contains("Successful"))
                 {
                     //show the admin menu here
+
+                    //in the case 5 : Transfer
+                    Console.WriteLine("Enter From Account Number ");
+                    int v_fromAcc =Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Enter To Account Number ");
+                    int v_ToAcc = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("Enter Amount To Transfer ");
+                    int v_Amount = Convert.ToInt32(Console.ReadLine());
+
+                 string transferResult=   trObj.Transfer(v_fromAcc, v_ToAcc, v_Amount, UserType.Admin);
+                    Console.WriteLine(transferResult);
                 }
                 else
                 {

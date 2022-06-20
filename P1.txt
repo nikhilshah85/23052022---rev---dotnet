@@ -23,7 +23,7 @@ Create a console Application - A Banking APP with the below requirements
 		1. Check Balance
 		2. Widraw - enter amount
 		3. Deposit - enter amount
-		4. Transfer - valid other account no and amount
+		4. Transfer funds, from LoggedIn to accountNo 2, provided valid balance, 
 		5. View last 10 transactions
 		6. Change password
 		7. Exit

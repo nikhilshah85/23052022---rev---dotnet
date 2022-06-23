@@ -1,0 +1,62 @@
+
+
+
+
+		Introduction and Welcome - 1 min
+		PPT, about project and presentation - 40 sec
+		Demo - 3 min
+		Code base - 2 mins
+		
+	keep last 1 - 2 mins fr question
+
+
+
+	P0 Presentation : 7-10 Mins
+		a. Come well groomed
+		b. Consider it as a product presentation to a client
+		
+		Tips
+		
+
+		give greetings, and a short introduction to your
+		a. Start with a PPT
+			Your Name and a welcome Note
+			next slide, about the presentation
+				     about the project
+					show some images
+						Admin Menu
+						User menu
+			next slide, tech stack
+				C# on .net Framework 4.7
+				OOPS
+				SQL Server
+	
+				Demo / Show Time
+			use 3-4 mins for presentation (glow slow)
+
+			then show the code, show libratry, show database, (ER diagram)
+		Best practices used in the project (metion 3-4)
+
+		Future plans for project / further improvements
+
+
+		Thank You - End of Presentation
+
+		Question Please
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		

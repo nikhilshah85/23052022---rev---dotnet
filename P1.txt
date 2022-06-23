@@ -20,6 +20,7 @@ Create a console Application - A Banking APP with the below requirements
 		7. Active an blocked account
 		8. Exit
 	d. When logged in By Customer, can see the below menu
+
 		1. Check Balance
 		2. Widraw - enter amount
 		3. Deposit - enter amount

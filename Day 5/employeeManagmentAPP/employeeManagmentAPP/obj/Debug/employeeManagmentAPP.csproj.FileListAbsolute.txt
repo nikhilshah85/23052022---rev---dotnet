@@ -1,8 +1,0 @@
-C:\Users\hp\Desktop\23052022---rev---dotnet\Day 5\employeeManagmentAPP\employeeManagmentAPP\bin\Debug\employeeManagmentAPP.exe.config
-C:\Users\hp\Desktop\23052022---rev---dotnet\Day 5\employeeManagmentAPP\employeeManagmentAPP\bin\Debug\employeeManagmentAPP.exe
-C:\Users\hp\Desktop\23052022---rev---dotnet\Day 5\employeeManagmentAPP\employeeManagmentAPP\bin\Debug\employeeManagmentAPP.pdb
-C:\Users\hp\Desktop\23052022---rev---dotnet\Day 5\employeeManagmentAPP\employeeManagmentAPP\obj\Debug\employeeManagmentAPP.csproj.AssemblyReference.cache
-C:\Users\hp\Desktop\23052022---rev---dotnet\Day 5\employeeManagmentAPP\employeeManagmentAPP\obj\Debug\employeeManagmentAPP.csproj.SuggestedBindingRedirects.cache
-C:\Users\hp\Desktop\23052022---rev---dotnet\Day 5\employeeManagmentAPP\employeeManagmentAPP\obj\Debug\employeeManagmentAPP.csproj.CoreCompileInputs.cache
-C:\Users\hp\Desktop\23052022---rev---dotnet\Day 5\employeeManagmentAPP\employeeManagmentAPP\obj\Debug\employeeManagmentAPP.exe
-C:\Users\hp\Desktop\23052022---rev---dotnet\Day 5\employeeManagmentAPP\employeeManagmentAPP\obj\Debug\employeeManagmentAPP.pdb

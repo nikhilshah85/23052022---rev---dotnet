@@ -1,0 +1,30 @@
+
+	      World Wide Web Consurium 
+WC3 and ECMA (European computer manufacturing association)
+
+This bodies governs internet communication (HTTP and languages 							on internet
+					HTML, CSS and JS)
+
+
+
+
+
+				REST - Represntation State Transfer
+		which lays the standards for data exhange over web
+			how to serialize, how to deserialize, what to share, what not to share, 
+			how to access data etc...... lots of rules and standards
+
+
+
+			Microsoft studied this standards
+			create compiler, runtime engine, classes, methods, properties, constructors etc 
+			based on this standards
+			Named it as ASP.Net WebAPI
+
+		Wether u develop an RESTFul application or webapi application, is the same thing
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "s4Kma9vGbIW71nG5jtTQUhcS21wBpPEHvVUXwzRMSno=",
+  "Source": "bankingAPI",
+  "BasePath": "_content/bankingAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

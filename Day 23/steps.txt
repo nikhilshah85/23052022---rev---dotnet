@@ -1,0 +1,9 @@
+1. we create a table in database - Accounts with 5 columns
+2. we took a new web api application using vs2022
+3. we added a nuget package system.data.sqlclient
+4. we added a new class, Accounts, and added 5 properties logically mapped to 	columns in the table
+5. we included system.data.sqlclient on top in accounts.cs
+	added connection string
+6. added 2 moetods GetAllAccounts and GetAccountById(int id)
+7. we added accouncontroller, and added 2 actionresults to return the above 2 	methods, we tested the same, we were happy 
+8. we want to add more methods today, add new account

@@ -1,0 +1,98 @@
+
+1. Codeing challange on C#
+2. A new API - assessment - to complete api development experience
+
+		create a new API for FIFAAPI
+
+		You need to have 2 tables
+
+			Teams 
+				teamId (primary key)
+				teamName (unique key)
+				country 
+				1. Real Madrid
+				2. Barcelona
+				3. Spain
+				4. Germany			
+				have atleast 32 teams
+			Players
+				playerId (primary key)
+				playerName (unique key)
+				playerPosition 
+				playerTeamId (Foreign Key)
+			Have atlease 10 players in every team 
+	----------------------------------------------------------------------------------------
+		Create an WebAPI, which will have 2 controllers and below methods		
+			teamsController 
+				a. ShowAllTeam
+				b. GetTeamByName (this will reaturn, the whole team, team name and players)
+					eg, Spain
+					TeamId TeamName Country PlayerId PlayerName PlayerPosition
+				c. AddNewTeam
+			playersController
+				a. GetPlayerByName (this will return 
+					TeamId TeamName Country PlayerId PlayerName PlayerPosition
+				b. GetAllPlayersByPosition(positionName)
+					TeamId TeamName Country PlayerId PlayerName PlayerPosition
+				c. AddNewPlayer
+				d. UpdatePlayer (move the player to other team)
+				e. Deleteplayer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
+				
+
+
+
+
+
+
+
+
+
+ 
+			
+	
+
+
+
+
+
+
+			
+
+
+				
+				
+			
+			
+
+
+
+
+3. QC on tuesday - 2-4
+	REST, HTTP, Some SQL stuff
+
+		Difference between Httpget and Httpput ?
+		What are http verbs ?
+		What is REST ?
+
+		a. most asked interview questions on REST, WEbAPI and SQL
+		b. W3Schools for SQL 
+			
+
+---------------------------------------------------------------------------
+	
+	

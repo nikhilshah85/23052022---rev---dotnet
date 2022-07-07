@@ -9,7 +9,9 @@
 			Teams 
 				teamId (primary key)
 				teamName (unique key)
-				country 
+				teamCountry 
+				teamFlag varchar(1000)
+				teamJersy varchar(1000)
 				1. Real Madrid
 				2. Barcelona
 				3. Spain
@@ -20,6 +22,7 @@
 				playerName (unique key)
 				playerPosition 
 				playerTeamId (Foreign Key)
+				playerImageUrl varchar(1000)
 			Have atlease 10 players in every team 
 	----------------------------------------------------------------------------------------
 		Create an WebAPI, which will have 2 controllers and below methods		

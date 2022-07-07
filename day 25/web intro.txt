@@ -1,0 +1,21 @@
+	3 languages
+HTML (UI tags)
+CSS (make up, beautify html, eg. turn square image into cirled)
+JS (Script, variables, functions, validations, formatting, cals)
+	loops, conditions 
+	it is not OOPS, it is OBPS
+		Object based programming structure
+
+-----------------------------------------------------------
+	Libraries, pre-written html, css or JS
+		for RAD
+		JQuery
+		Bootstrap - this is from twitter
+----------------------------------------------------
+		Types of Web apps
+a. Server side functional (for every new thing you want to see
+			Post, delete, put, get new content
+		it will come from server
+	get the data from database
+	upload an images, which would get stored in some folder
+b. Client Side - Angular

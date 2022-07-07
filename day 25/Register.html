@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <h1 style="text-align:center"> Register </h1>
+
+    <form method="post"> 
+
+        
+<ul>
+    <li> <a href="home.html"> Home </a> </li>
+    <li> <a href="about.html"> About </a> </li>
+    <li> <a href="Register.html"> Register </a> </li>
+    <li> <a href="location.html"> Location </a> </li>
+</ul>
+        <table border="1">
+            <tr>
+                <td> First Name </td>
+                <td> <input type="text" placeholder="Enter Your First Name" required/> </td>
+            </tr>
+
+            <tr>
+                <td> Last Name </td>
+                <td> <input type="text" placeholder="Enter Your Last Name" required/> </td>
+            </tr>
+
+            <tr>
+                <td> Age </td>
+                <td> <input type="number" placeholder="Enter Age between 18 and 60"  min="18" max="60"/> </td>
+            </tr>
+
+            <tr>
+                <td> Password </td>
+                <td> <input type="password" placeholder="Choose a strong password"/> </td>
+            </tr>
+
+            <tr>
+                <td> Date of Birth </td>
+                <td> <input type="date"/> </td>
+            </tr>
+
+            <tr>
+                <td> Country </td>
+                <td> 
+                    <select>
+                        <option> India </option>
+                        <option> Canada </option>
+                        <option> Japan </option>
+                        <option> Thailand </option>
+                        <option> Phillipines </option>
+                    </select>                
+                </td>
+            </tr>
+
+            <tr>
+                <td> Vehicle </td>
+                <td> 
+                    <input type="checkbox"/> 2 Wheeler <br/>
+                    <input type="checkbox"/> 4 Wheeler <br/>
+                    <input type="checkbox"/> 6 Wheeler  <br/>
+                
+                </td>
+            </tr>
+
+            <tr>
+                <td> Gender </td>
+                <td> <input type="radio" name="gen"> Male 
+                 <input type="radio" name="gen"> Female </td>
+            </tr>
+
+            <tr>
+                <td> Cost of living </td>
+                <td> <input type="range" min="100" max="500"/> </td>
+            </tr>
+
+            <tr>
+                <td> Email Address </td>
+                <td> <input type="email" placeholder="Enter your email address"/>
+            </tr>
+            
+            <tr>
+                <td> <input type="reset" value="Reset"> </td>
+                <td> <input type="submit" value="Register"> </td>
+            </tr>
+
+        </table>
+
+
+    </form>
+
+</body>
+</html>

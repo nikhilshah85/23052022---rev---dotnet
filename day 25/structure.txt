@@ -1,0 +1,17 @@
+HTML Page structure
+
+<html>
+
+	<head>
+		<title> </title>
+		--this is the place you refer 
+		--CSS files and Javascript files
+		--CDN links
+		--libraries, eg bootsrap
+	</head>
+
+	<body>
+
+
+	</body>
+</html>

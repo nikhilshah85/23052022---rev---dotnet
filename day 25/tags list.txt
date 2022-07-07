@@ -1,0 +1,20 @@
+1. Header Tags
+
+to display the headeing 
+There are 6 of them
+h1 to h4
+
+
+2. HR - horizontal line
+
+3. P - paragraph 
+
+4. List 
+	Ordered list <ol>
+	unordered list <ul>
+
+5. table tags
+
+6. Tables 
+
+7. Form tags

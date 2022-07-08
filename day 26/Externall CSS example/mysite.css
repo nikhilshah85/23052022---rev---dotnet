@@ -1,0 +1,27 @@
+table
+{
+    border: 1pt;
+}
+
+h1{
+    color: blue;
+}
+
+a:hover{
+    font-size: larger;
+    color: white;
+}
+
+td:hover{
+    background-color: brown;
+
+}
+
+body{
+    background-color: aqua;
+}
+p{
+    font-size: 20px;
+    color:orangered;
+    background-color: purple;
+}

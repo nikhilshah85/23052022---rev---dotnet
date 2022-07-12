@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        img{
+            border-radius: 50px;
+        }
+        .innerDiv {
+            background-color: #c0c0c0;
+            color: navy;
+            width: 300px;
+            padding: 20px;
+            margin: 10px;     
+            border-radius: 30px;   
+        }
+    </style>
+
+    <script>
+        function displayPhotos() {
+            fetch('https://jsonplaceholder.typicode.com/photos').then( resp => resp.json())
+                                                                .then( data =>{
+
+                                                                for(i=0;i<data.length;i++)
+                                                                {
+
+                                                                    var myDiv = document.getElementById('divOuter');
+                                                                    myDiv.className = "innerDiv";
+                                                                    
+                                                                    var albumId = document.createElement("h3");
+                                                                    albumId.innerText = "Album Id : " + data[i].albumId;
+
+                                                                    var id = document.createElement("h3");
+                                                                    id.innerText = "Id : " + data[i].id;
+
+                                                                    var title = document.createElement("h3");
+                                                                    title.innerText = "Title " +  data[i].title;
+
+                                                                    var thumbnailUrl = document.createElement("img");
+                                                                    thumbnailUrl.src = data[i].thumbnailUrl;
+                                                                    
+
+                                                                    myDiv.appendChild(albumId);
+                                                                    myDiv.appendChild(id);
+                                                                    myDiv.appendChild(title);
+                                                                    myDiv.appendChild(thumbnailUrl);
+                                                                    
+                                                                }
+
+                                                                })
+                                                                .catch( err => {
+                                                                    alert("Error !!");
+                                                                    console.log(err);
+                                                                })
+
+        }
+    </script>
+</head>
+<body>
+    <button onclick="displayPhotos()"> Show Photos</button>
+    <div id="divOuter"></div>
+    
+</body>
+</html>

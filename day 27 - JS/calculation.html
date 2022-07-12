@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function calculateNumber() {
+            var n1 = document.getElementById("txt1").value;
+            var n2 = document.getElementById("txt2").value;
+
+                if(n1 < 0 || n2 < 0)
+                {
+                    document.getElementById('errHeader').innerText = 'Please Enter Only Positive Numbers';
+                }
+                else
+                {
+                    document.getElementById('errHeader').innerText = '';
+            var addition = parseInt(n1) + parseInt(n2);
+            var subtract = n1 - n2;
+            var multiply = n1 * n2;
+            var divide = n1 / n2;
+            // alert(addition);
+
+            // document.getElementById('addHeader').innerHTML('Addition is ' + addition);
+                    document.getElementById('addHeader').innerText = "Addition is : " + addition;
+                    document.getElementById('subHeader').innerText = "Subtraction is : " + subtract;
+                    document.getElementById('mulHeader').innerText = "Multipleication is : " + multiply;
+                    document.getElementById('divHeader').innerText = "Division is : " + divide;
+                }
+        }
+    </script>
+
+
+</head>
+<body>
+    <input type="number" style="width:300px" id="txt1" placeholder="Enter First Number" min="1" max="1000"/><br/>
+    <input type="number" style="width:300px" id="txt2" placeholder="Enter Second Number" min="1" max="1000"/> </br>
+    <button onclick="calculateNumber()"> Calculate</button>
+
+    <h1 style="color:red" id="errHeader"></h1>
+
+    <div style="background-color:aquamarine">
+            <h1 id="addHeader"></h1>
+            <h1 id="subHeader"></h1>
+            <h1 id="mulHeader"></h1>
+            <h1 id="divHeader"></h1>
+    </div>
+</body>
+</html>

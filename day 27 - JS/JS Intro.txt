@@ -1,0 +1,22 @@
+
+
+
+
+
+
+
+			1. Javascript - is a standard scripting language for all the browser
+				W3C standard
+			2. JS is Object Based not Object oriented
+				There are inbuild Classes. object which u can use
+				You cannot create a new class, methods, constructrs, props, 
+					Inheritance, all the 4 pillars
+			3. It follows camelCase, and is case scencetive
+			4. It is not compiled
+			5. Is used for client side
+				Calculations
+				Validations
+				Sort, filter, animation etc....
+			6. It can manipulate HTML and CSS both
+			7. Loops, conditions, etc...functions, not methods
+			8. Is used inside the script tag

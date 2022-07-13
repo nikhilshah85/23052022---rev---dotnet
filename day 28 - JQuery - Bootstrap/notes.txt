@@ -1,0 +1,88 @@
+
+
+
+
+
+
+
+
+
+				1. HTML  (present your visuals on browser)
+				2. CSS  (beautyfy the visuals for HTML)
+				3. JS 	(intreact with users who uses browser, browser that displays html)
+
+
+				a. JS is lenghty
+					JQuery will make your code cleaner (makeing sure, u do not use anything from JS into HTML)
+				b. Every Project has lots of common features, functiotionality 
+					Every developer has to right,
+					JQuery, let me write them, u just use it 
+
+
+				JQuery is a Javascript library with pre-defined set of functions 100'sss of function
+
+-------------------------------------------------------------------------------------------------------------
+				JQuery - is a library - used in Bootstrap
+				More advanced version of Javascript - EScript which is Object Oriented
+							Used in Angular
+
+
+
+----------------------------------------------------------------------------------------------------------------
+		We need to have or attach JQuery to our HTML page
+			1. Download the library and reference in your page, under the head section <script src="jqueryfilename.js"> </script>
+			2. Use CDN (Content Dilivery Network) - i.e Library is stored on some server near you, and u pick up the library from there when you run the 									page
+					<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+	---------------------------------------------------------------------
+		a. All your JQuery code is inside 
+			$(document).ready(function(){
+
+				......
+			})
+
+		b. There are 4 ways to access HTML
+			1. $("tagName") - eg. $("button) or $("h1")
+			2. $("#idofelement") - eg. $("#special")
+			3. $(".className of element ") - eg $(".gr1)
+			4. $(this)  - referes to the same element in context
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				

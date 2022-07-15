@@ -1,0 +1,85 @@
+
+
+
+
+
+
+
+
+	a. Bootstrap (CSS Library for beautyfication)
+		JS -> jQuery 
+		CSS + JQuery = Bootstrap 
+	b. Entity Framework (say bye bye to Long, lengthy ADO.Net code)
+		We create an WebAPI for you 
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+				Bootstrap - this is a UI library by twitter
+					2 ways to use 
+					a. Download and attach in the head section
+					b. CDN 
+
+
+		a. There are 2 flavors
+			a. for Web Pages and Mobile apps (old version) - 3.4
+			b. For Angular / React and (Component based Programming) ( we will use in Angular)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+						Project P2 - Team Project
+
+			1. Web API with Entity framework on SQL Server - on Cloud
+			2. ASP.Net MVC - UI - once you create this, we will host it on cloud (use HTML, CSS,JS,Bootstrap)
+			3. Logging - seri log
+---------------------------------------------------------------------------------------------------------------------------------------
+				Your team needs to decide the domain (Online Food ordering, online cab book, 
+								     Flight ticket booking, Hospital APP - 
+								     patient management, appointment manage)
+					Distribute the task amount yourself - report me the daily progress
+
+		
+
+
+
+
+
+
+
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

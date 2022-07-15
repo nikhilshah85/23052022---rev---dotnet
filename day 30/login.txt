@@ -1,0 +1,10 @@
+create table Login
+	(
+		userId varchar(20) primary key,
+		password varchar(20)
+	)
+
+	insert into Login values('Nikhil','Pass1234')
+	insert into Login values('Mike','Pass1234')
+	insert into Login values('Tyson','Pass1234')
+	insert into Login values('Kane','Pass1234')

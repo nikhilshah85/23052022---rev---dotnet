@@ -1,0 +1,145 @@
+Step 1: Create a database, add tables, add sample data
+
+	create database shoppingP2APP
+	
+	use shoppingP2APP
+	
+
+	create table Register
+	(
+		desiredUserName varchar(20) primary key,
+		desiredPassword varchar(20),
+		firstName varchar(20),
+		lastName varchar(20),
+		emailAddress varchar(20),
+		contactNo int,
+		age int,
+		city varchar(20),
+		address varchar(20),
+
+		constraint uk_email unique(emailAddress),		
+		constraint uk_contact unique(contactNo),
+	)
+	
+
+	create table productList
+	(
+		pId int primary key,
+		pName varhchar(20),
+		pCategory varchar(20),
+		pPrice int,
+		pAvailableQty int,
+		pIsInStock bit
+	)
+
+	insert into productList values(101,'Iphone','Electronic',2200,10,1)
+	insert into productList values(102,'Latte','Beverage',5,10,1)
+	insert into productList values(103,'Fossil','Electronic',1800,10,1)
+	insert into productList values(104,'Green Tea','Beverage',8,10,1)
+	insert into productList values(105,'Sandwitch','Fast-Food',2,10,1)
+
+	create table ordersList
+	(
+		orderId int primary key identity(5000,1),
+		orderDate date,
+		productId int,
+		orderQty int,
+		orderCost int,
+		userId varchar(20),
+		
+		constratint fk_produtId foreign key(productId) references productList,
+		constratint fk_userId foreign key(desiredUserName) references Register
+	)
+		
+
+-------------------------------------------------------------------
+
+step 2: create new ASP.Net WebAPI core project
+
+step 3: EF is not added to your project you have to add 4 nuget packages
+	Microsoft.EntityFrameworkCore.Design
+	Microsoft.EntityFrameworkCore.Tools
+	Microsoft.EntityFrameworkCore
+	Microsoft.EntityFrameworkCore.SqlServer
+
+	Build the application
+
+step 4: ready your Connection string
+	
+"Server=tcp:nikhils-p2.database.windows.net,1433;Initial Catalog=shoppingDB;Persist Security Info=False;UserID=trainer;Password=Password@1234;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
+step 5: fire a EF core command, which will create POCO classes for you
+	Plain C# Objects - Classes will be created for you, based on tables you have in database
+				along with properties, constraints, and relationships
+		3 tables - 3 classes
+		  colums - becomes the properies
+
+		1 class(DbContext) which will know everything about this classes, fires CRUD operations to your database
+
+	Tools -> Nuget Package Manger -> Nuget Package Manger Console
+
+	Scaffold-DbContext "Server=tcp:nikhils-p2.database.windows.net,1433;Initial Catalog=shoppingDB;Persist Security Info=False;User ID=trainer;Password=Password@1234;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" -OutputDir Models/EF -Provider Microsoft.EntityFrameworkCore.SqlServer
+
+	build the project
+	check the Models folder
+
+
+step 6: Right click on the controller folder, add new controller, API -> API Controller with actions using Entity Framework
+	choose className(productLIst) for Model
+	choose DBCOntect for data context
+
+step 7: Small change in Controller, 
+
+	1. instanstiate new Object of your DBContext class (line 16)
+	2. Comment the constructor code
+
+	build the application
+
+	Run the application, test all the CRUD operations on Swagger
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

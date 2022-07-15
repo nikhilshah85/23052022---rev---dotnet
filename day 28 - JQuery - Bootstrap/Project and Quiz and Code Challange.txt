@@ -1,0 +1,26 @@
+Friday
+	Quiz - HTML, CSS, JS, JQuery, Bootstrap
+
+
+Code Challage on the same
+	Quiz - HTML, CSS, JS, JQuery, Bootstratp
+
+
+
+	------------------------------------------------------------------------------------------------------------------------------------------------
+
+		Project 2 (p3)
+
+		ASP.Net MVC (which uses html, css, Jquery, bootstrap)
+		WebAPI using Entity Framework 
+
+		Group Project - 4 associates for every team
+
+		Each team will decide the topics
+
+		-----
+		Project will have, oAuth implementation  - Login to my website, using ur Fb id, google, MS, O365 ID					
+				   Logging (seri log)
+
+		--------
+		Tomorrow Bootstrap and Entity Framework, make teams, and teams will decide and plat the project

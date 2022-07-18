@@ -14,7 +14,7 @@ namespace shoppingAPI.Models.EF
         public shoppingDBContext(DbContextOptions<shoppingDBContext> options)
             : base(options)
         {
-        }
+        }        
 
         public virtual DbSet<OrdersList> OrdersLists { get; set; } = null!;
         public virtual DbSet<ProductList> ProductLists { get; set; } = null!;

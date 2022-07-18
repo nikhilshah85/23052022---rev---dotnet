@@ -1,0 +1,40 @@
+
+
+
+			EF - Entity Framework is based on Design Pattern - 
+			ORM - Object Relational Mapping
+				You will have a class (in c# it is called as POCO class - Plain Object on C#)
+					will map to a table in database
+					class will have properties, which will map to columns in ur table
+
+				Every table will be mapped to 1 class
+
+			------------
+			1. lets say we have 3 tables 
+						 and so 3 classes
+
+			2. This 5 classes will be under 1 umbrella - called as Context Class, which is mapped to a database,
+				it has a connection string - which has servername, databse, user id, password, constraints etc...
+
+			3. Context class has a property - DbSet<Products>, DbSet<Orders> etc..
+			
+			4. Context class will open the connection to server, close the connection to server
+				execute the queries
+
+	
+			EF Use LINQ as a language to communicate with databases
+			
+
+			Language Integrated Query - an common languge for any kind of managed data source
+
+
+
+
+
+
+
+
+
+
+
+

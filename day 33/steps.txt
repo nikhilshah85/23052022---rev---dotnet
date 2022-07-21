@@ -1,0 +1,15 @@
+1. create a model as per the data you have to pass
+	add properties
+	add a Mehtod to add the values
+2. in the controller add new methods with same name
+	1. for get the view 
+	2. post the data to controller
+
+3. cretea a new view based on model
+
+-------------------------
+1. Add a new class in Model folder, product list
+	add properies
+	add a method to post the data
+2. Create a new controller, add 2 actions, 1 for get and 1 post
+

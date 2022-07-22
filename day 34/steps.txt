@@ -1,0 +1,42 @@
+step 1: createa a new app with asp.net mvc, with individual account
+step 2:in the solution explorer, there are extra folders created
+		area and data
+step 3: required nuget packages will be added you in the app
+step 4: check the connection string in appsettings.json
+	make changes
+--------------------------------------------------------------- 
+step 5: add a new controller - bankingcontroller
+step 6: add 4 action methods
+	Banking (this is a home page for bankig, 
+		 this does not need Authentication)
+	TranferFunds
+	DownloadStatements
+	Services
+steps 7:Add views for them
+step 8: update layout page
+
+-----------------------------------------------------------------
+step 9 : Apply [Authorize] Attribute above Banking Controller - using Microsoft.Aspnetcore.Authorization
+step 10: Apply [AllowAnonymous] - above banking Action
+    build and run the application, test all the page, u will be able to access only banking, rest u will be forwared to Login Page
+step 11: in appsettting.json, make sure connection string value is correct
+	go to tools, nuget package manager, Nuget package manager console
+
+	Add-Migration newDB
+	Update-database
+step 12: Build and run the app, register new user, check the details in AspNetUser table
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	
+	

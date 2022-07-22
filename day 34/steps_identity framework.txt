@@ -1,3 +1,24 @@
+Identity Framework
+
+	Web APP 
+	To access web content user needs to identify them self
+
+
+	Self service for users
+	register yourself 
+	forgot password - reset it urself
+	change password
+	enable/disable profile
+
+	login using facebook, gmail, twitter, linked in (oAuth)
+	 
+
+	how to stop user to visit a specific pages
+----------------------------------------------------------------------------------------------------------
+
+
+
+
 step 1: createa a new app with asp.net mvc, with individual account
 step 2:in the solution explorer, there are extra folders created
 		area and data
@@ -25,6 +46,41 @@ step 11: in appsettting.json, make sure connection string value is correct
 	Add-Migration newDB
 	Update-database
 step 12: Build and run the app, register new user, check the details in AspNetUser table
+
+------------------
+to authenticate user using their fb/gmail/linkedin/twitter/microsoft
+
+step 13 : add nuget package for the same 
+ Microsoft.AspNetCore.Authentication.Facebook
+
+step 14:  program.cs
+	
+builder.Services.AddAuthentication().AddFacebook(fb =>
+{
+    fb.AppId = "fdslkjfheuiwfywiegywegbjdsbfjsodfbskjdfsijd";
+    fb.AppSecret = "dklsfhifbyewbbfofbwehwefwdfbdifbehfkdsfbdsjfbewhbfhewbfhjewbfhefbdsbfs";
+});
+
+step 15: developer.facebook.com
+	 developer.google.com
+	 developer.twitter.com
+
+	sign in, createa a new app, app will give u id and secret, u just have to paste it here
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

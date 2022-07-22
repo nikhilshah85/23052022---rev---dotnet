@@ -4,6 +4,29 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+
+builder.Services.AddAuthentication().AddFacebook(fb =>
+{
+    fb.AppId = "1124495731613171";
+    fb.AppSecret = "4415eca5f3cf35c1250482037dfc9bce";
+});
+
+builder.Services.AddAuthentication().AddGoogle( ggl =>
+{
+    ggl.ClientId = "fdlkjfiuuiebgisbgkjgskbgiwbwihe";
+    ggl.ClientSecret = "fsmdlksdnfiweby2vfdsfbehfbdkmbfonfjrfijfsmlnfdsjkfdsfew";
+});
+
+builder.Services.AddAuthentication().AddTwitter( tweet =>
+{
+    tweet.ConsumerKey = "dsfmljdsurguifjngjiwlnfmnskjfndsm,fndslkfndskjfnsd";
+    tweet.ConsumerSecret = "dfkndibewpgkjdifwiefiksjfdskfdksdsk";
+});
+
+
+
+
 // Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>

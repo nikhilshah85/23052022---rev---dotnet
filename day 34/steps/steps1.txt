@@ -1,0 +1,119 @@
+
+
+
+1. Create a new MVC Core app - FirstMVCAPP
+2. Check the solution explorer, files and folders
+3. Open the controller folder, Homeconrtoller.cs
+	add 2 actions, 
+	public IActionResult About()
+        {
+            return View();
+        }
+
+        public IActionResult Contact()
+        {
+            return View();
+        }
+
+4. Add a views for them, (right click on About, add view, razor empty, name it as About.cshtml)
+	same for the Contact
+5. Go to _layout.cshtml, update changes, like 
+		
+		<body style="background-color:orangered;color:white">	
+6. Add 2 links in bottom
+
+7. build the app, run the app (control + F5)
+
+    <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">About us</a>
+                        </li>
+                          <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact us </a>
+                        </li>
+
+8. test the app
+
+-------------------------------------------------------------------------------------------------------------
+
+
+		How do this 3 files pass the data to each other
+
+		we will first see, today, from controller to view
+				  tomorrow, from view to controller
+				Model --> controller --> view
+				view --> controller --> model
+
+				controller A --> Contoller B
+
+
+9. Add a new action Products, add some data into it
+
+	  public IActionResult Products()
+        {
+            //collect data from model
+
+            List<string> productsList = new List<string>()
+            {
+                "Pepsi","Appy","Iphone","Maggie","Dell","Air Pods","Yamaha"
+            };
+
+            ViewBag.pList = productsList;
+            ViewBag.appName = "My Shopping APP";
+            ViewBag.totalProducts = productsList.Count;
+
+
+            return View();
+        }
+
+10. create a view for products, update the layout page
+	  <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Products">Products</a>
+                        </li>
+
+11. display the data
+	
+
+	<h1 style="text-align:center"> @ViewBag.appName </h1>
+
+	<h3> Total Products : @ViewBag.totalProducts </h3>
+
+
+<ul>
+	@foreach (var item in ViewBag.pList)
+{
+    <li> @item </li>
+}
+</ul>
+
+<select>
+    @foreach (var item in ViewBag.pList)
+    {
+        <option> @item </option>
+    }
+</select>
+
+  @foreach (var item in ViewBag.pList)
+    {
+       <input type="checkbox"/> @item
+    }            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -68,3 +68,7 @@ C:\Users\hp\Desktop\23052022---rev---dotnet\day 34\bankingAPPMVCIdentity\banking
 C:\Users\hp\Desktop\23052022---rev---dotnet\day 34\bankingAPPMVCIdentity\bankingAPPMVCIdentity\obj\Debug\net6.0\bankingAPPMVCIdentity.pdb
 C:\Users\hp\Desktop\23052022---rev---dotnet\day 34\bankingAPPMVCIdentity\bankingAPPMVCIdentity\obj\Debug\net6.0\bankingAPPMVCIdentity.genruntimeconfig.cache
 C:\Users\hp\Desktop\23052022---rev---dotnet\day 34\bankingAPPMVCIdentity\bankingAPPMVCIdentity\obj\Debug\net6.0\ref\bankingAPPMVCIdentity.dll
+C:\Users\hp\Desktop\23052022---rev---dotnet\day 34\bankingAPPMVCIdentity\bankingAPPMVCIdentity\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Facebook.dll
+C:\Users\hp\Desktop\23052022---rev---dotnet\day 34\bankingAPPMVCIdentity\bankingAPPMVCIdentity\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\hp\Desktop\23052022---rev---dotnet\day 34\bankingAPPMVCIdentity\bankingAPPMVCIdentity\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Google.dll
+C:\Users\hp\Desktop\23052022---rev---dotnet\day 34\bankingAPPMVCIdentity\bankingAPPMVCIdentity\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Twitter.dll

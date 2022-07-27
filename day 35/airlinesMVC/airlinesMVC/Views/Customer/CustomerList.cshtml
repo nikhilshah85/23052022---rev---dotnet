@@ -1,0 +1,43 @@
+﻿<script>
+
+    function getCustomers()
+    {
+        console.log('Call Started');
+
+        fetch('https://localhost:7292/api/Customers').then(res => res.json())
+                                                    .then(result => {
+                                                        console.log('inside try');
+                                                        console.log(result);
+
+                                                        for(i=0;i<result.length;i++)
+                                                        {
+                                                            $("table").append("<tr>" + 
+                                                        
+                                                            "<td>" + result[i].custId + "</td>" +
+                                                            "<td>" + result[i].firstName + "</td>" +
+                                                            "<td>" + result[i].lastName + "</td>" +
+                                                            "<td>" + result[i].country + "</td>" +
+                                                            "<td>" + result[i].city + "</td>" +
+
+                                                        
+                                                        
+                                                        + "</tr>")
+                                                        }
+
+                                                        
+                                                                    
+                                                    })
+                                                    .catch(err => {
+                                                        console.log(err);
+                                                    })
+    }
+
+
+</script>
+
+<button class="btn btn-primary" onclick="getCustomers()"> Get Customers
+</button>
+
+<table class="table">
+
+</table>

@@ -1,0 +1,64 @@
+
+
+<h1> Welcome to Angular Developement </h1>
+
+<!-- Plain Properties -->
+<h1> {{ firstName }} {{ lastName }} is {{ designation }} from {{country }}</h1>
+
+<!-- Plain Array  -->
+<!-- 
+<ul>
+  <li *ngFor="let t of technologies"> {{ t }}</li>
+</ul> -->
+
+<select>
+  <option *ngFor="let t of technologies">{{ t }}</option>
+</select>
+
+<!-- <span *ngFor="let t of technologies"> <input type="checkbox"/> {{ t }} </span> -->
+
+
+<!-- JSON Object -->
+<hr/>
+<p> JSON Object display </p>
+
+<!-- <div style="background-color: brown">
+  <h3> Trainer ID : {{ trainerProfile.trainerId }}</h3>
+  <h3> Technology Stack : {{ trainerProfile.technologyStack }} </h3>
+  <h3> Trainer  Location : {{ trainerProfile.trainerLocation }} </h3>
+  <h3> Years of Experience : {{ trainerProfile.trainerYearsofExperience }} </h3>
+  Clients
+  <ul>
+    <li *ngFor="let c of trainerProfile.trainerClients"> {{c }}</li>
+  </ul>
+
+</div> -->
+
+<!-- JSON Object Array -->
+
+<!-- <table>
+  <tr *ngFor="let t of trainerist">
+    <td>  {{ t.trainerId }}</td>
+    <td>  {{ t.trainerName }}</td>
+    <td>  {{ t.technologyStack }}</td>
+    <td>  {{ t.trainerLocation }}</td>
+    <td>  {{ t.trainerYearsofExperience }}</td>
+  </tr>
+</table> -->
+
+<div>
+  <div *ngFor="let t of trainerist" style="background-color: lime">
+    <h3>Trainer Id :  {{ t.trainerId }}</h3> 
+    <h3>Trainer Name :  {{ t.trainerName }}</h3> 
+    <h3>Trainer Technology : {{ t.technologyStack }} </h3> 
+    <h3>Trainer Location :  {{ t.trainerLocation }} </h3> 
+    <h3>Trainer Years  :   {{ t.trainerYearsofExperience }} </h3> 
+    <hr/>
+  </div>
+</div>
+
+<hr/>
+
+<!-- <app-products></app-products> -->
+
+<app-products></app-products>

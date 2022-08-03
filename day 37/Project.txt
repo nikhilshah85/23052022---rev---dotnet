@@ -1,0 +1,80 @@
+
+
+
+
+
+
+
+
+
+	Profile
+	Post (feed/like / dislike)
+	Comment(feed, reply to a comment, reaction to a comment/delete comment/ Notifications)
+	Links (youtube link)
+	Friendlist, recommend a friend, friend suggession 
+		, block the account after,Follow a user, group
+	Register, login, reset password, forgot password, etc....
+
+------------------------------------------------------------------------------------------------
+Final REquirements
+	Register n
+		Login (reset password, forgot password)
+	Profile
+	Post + comments + Links
+	Friends (recommed, suggest, add, remove, block, - make group, follow a user
+
+--------------------------------------------------------------------------------------------
+Layers
+	Backend - SQL Server on Azure
+	Middle ware - Web API
+	Frontend - Angular Components
+
+---------------------------------------------------------------------------------------------
+Teams
+Cordination between all of the teams - Scrum Master
+	
+Juwan and Diego 
+
+	UI Lead / UI Manager
+		Jacob & James 
+
+	Database manager
+		Katherine and Diego
+
+	WebAPI Manager
+		Karamo, Kevin, Eric 
+
+	Logic and Alogo
+		Edward,Sterling
+
+	Angular Components
+		Jamal and Roba
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+

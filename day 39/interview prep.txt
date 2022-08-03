@@ -1,0 +1,121 @@
+
+
+
+
+
+			Interviews : Max 45 mins to 1 hours
+	
+			1. Good internet connection, Cameras, good speaker and mike
+			2. Good meet and greet
+			2. write some code, on notepad (rare
+			3. Topics
+				a. .Net framework
+				b. C# with OOPS (properties, methods, constructores, events, delegates, serialization, reflection
+					Abstraction, Encapsulation, Inheritance and Polymorphism (keywords)
+					Linq and Lambda expressions
+				c. SQL 
+					DDL, DML, DQL, DTL, Joins
+					Views, Index, CTE, Temp Table,  TSQL (Function, Procudures, Triggers)
+				d. ADO.Net / EF 
+				e. ASP.Net MVC
+				f. WebAPI
+				g. Angular
+					Components, Pipes, Services, Routeing
+				
+
+
+
+1. What is .net framework 
+	is an SDK (software development kit) for developing,debugging and  testing, and hosting any type of application
+			with more than 54 language support)
+
+2. what is .net framework made up 
+	BCL - base class libraries
+	Compilers
+	Languages
+	CLR
+
+3. When u compile an .net application what do u get - (.exe / .dll ) file
+			which has MSIL (Microsoft Intermediate language)
+
+4. What is CLR 
+
+5. What is CTS and CLS ?
+		Common Type Specification
+		Common Language Specification 
+
+		every language in .net has to follow some rules
+			They should support same data types (int or interger or number or var, u should have support for it
+							and size of them to be same)
+
+		it gets converted to a common data type (eg. int becomes int32 - C# - 4 bytes
+							   integer becomes int32 - VB  - 4 bytes
+							   number becomes int32 - f#)
+
+			called as Common Type Spcification 
+	CLS	
+		Since there are numerous different languages, . NET has specified those commonalities in something called the Common 		Language Specification (CLS). CLS defines a set of features that are needed by many common applications
+	CTS
+		NET each language is converted into MSIL code after compilation and the MSIL code is language specification of CLR. 		Common Type System (CTS) describes the datatypes that can be used by managed code. CTS defines how these types are 		declared, used and managed in the runtime.
+
+6. What is value type and reference type 
+
+		Value type - all the data type which has pre-determined value are value type
+			Premitive types int, double, bool,float data, datatime, enums, structures are value type
+				expect string
+		Reference type - values will get detemined at runtime, UDT - classes, interfaces, collections (Array, list)
+				string
+
+
+	value types goes on stack of memory map
+	ref type goes on HEAP of memory map
+
+7. What is boxing and unboxing  
+	Boxing - value type to ref type
+	unbox - ref type to value
+8. What is JIT ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+
+
+				Agenda
+
+
+1. Scrum meeting
+2. Project Stats
+	DB design is done (v1.0)
+	WebAPI - 
+	Angular - Components
+			Data categories (u know 4 types and how to display them, this was hardcoded, we need to see how to get this
+					data, and post, udpate, delete data from webapi)
+		  Pipes
+		  Services
+		  Routes
+		  Guards
+3. Andrew 
+4. Interview prep 
+5. project 
+
+
+------------------
+Table developed ?
+	data tested ?

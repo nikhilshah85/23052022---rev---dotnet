@@ -70,11 +70,12 @@ which nuget packages are needed to work with EF core
 
 	.Net framework - https://www.tutorialspoint.com/asp.net/asp.net_introduction.htm
 	C# - https://www.w3schools.com/cs/index.php
-	EF Core - https://www.entityframeworktutorial.net/
-	asp.net MVC - https://www.tutorialspoint.com/asp.net_mvc/index.htm
 	SQL Server - https://www.tutorialspoint.com/sql/index.htm
-	Angular - https://www.tutorialspoint.com/angular8/index.htm
+	asp.net MVC - https://www.tutorialspoint.com/asp.net_mvc/index.htm
 	web api - https://www.tutorialsteacher.com/webapi
+	EF Core - https://www.entityframeworktutorial.net/	
+	Angular - https://www.tutorialspoint.com/angular8/index.htm
+	
 
 
 

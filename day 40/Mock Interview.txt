@@ -1,0 +1,144 @@
+What is .Net framework
+what is CLR
+What is CTS and CLS
+what garbage collection
+What is a thread in .net 
+What is OOPS 
+What are the 4 pillars/Princples of OOPS 
+What is static  and when will you use it
+What is an Interface
+What is ENUM
+What is Value type 
+What is reference type
+What is the difference between class and structure
+What is ado.net
+	Write a connection strin for connection to database
+		server name = nikhilshah\trainerinstance
+		database = interviewDB
+		user id = sa
+		password = pass@234
+Where do u write the connection string appsettings.json
+What is serialization
+what are types of serialization
+what is a collection
+	what are types of collections - generic and non-collection
+	which collection is used as a key and a value pair - Dictionary (Generic) and Hashtable (non-generic)
+what are exceptions
+---------------------------------
+SQL Server
+What is the database designing technique called - Normalization
+WHat is a primary key
+What is a the difference between primary key and unique key
+Can we have multple primary key, uniquie key
+What is a concanetated key / Composite key
+What is DML Operations
+What are joins, what are types of Joins
+	cross join - cartisian 
+	equi join
+	left join
+	right join
+	null join
+	full join  / outer join 
+	self join 
+what are indexes 
+	Types of indexes (clustured index and non-clustured)
+What are view
+
+What are procedures
+	what are types of parameters in procedures
+		IN
+		OUT
+		IN OUT
+what are functions
+what are triggers
+
+-------------------------------------------------------------------------------------------------
+
+ASP.Net MVC
+What is Viewbag
+What is model binding
+What is the return type of an Action in controller - IActionResult
+Which class is used to make webapi call from model - HttpClient
+how do u make a webapi call from view - it returns a promise object
+how pass data from view to controller - <form method="post">
+what is a strongly typed view
+what are ways to connect to database from MVC
+	EF
+	ADO.Net
+which nuget packages are needed to work with EF core 
+	there are 4 - name them in a sequence
+
+	.Net framework - https://www.tutorialspoint.com/asp.net/asp.net_introduction.htm
+	C# - https://www.w3schools.com/cs/index.php
+	EF Core - https://www.entityframeworktutorial.net/
+	asp.net MVC - https://www.tutorialspoint.com/asp.net_mvc/index.htm
+	SQL Server - https://www.tutorialspoint.com/sql/index.htm
+	Angular - https://www.tutorialspoint.com/angular8/index.htm
+	web api - https://www.tutorialsteacher.com/webapi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

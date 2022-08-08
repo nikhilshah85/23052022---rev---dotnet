@@ -1,0 +1,30 @@
+What is an Object
+What is an constructor
+how do u pass the value to a base class constructor
+What is Polymorphism
+What is an Interface
+What is Garbage collection
+What is CLR
+What is serilog
+What is MSIL 
+-----------------------------------------------------------------
+What is truncate
+What is a transaction
+What is a view
+What is a index
+How can you get unique values from country column 
+What is the use of group by in sql server
+how do you sort data in sql server - order by
+how do u filter the data - where clause
+----------------------------------------------------------------
+What is Angular
+What is a Component
+What is a service
+What is a Pipe
+What is 
+
+
+
+
+
+
